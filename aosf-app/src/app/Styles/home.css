@@ -1,0 +1,6 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 73px);
+    opacity: 0.2;
+    background: url("../../assets/Rectangle\ 2.png") #0C0911 50% / cover no-repeat;
+}
