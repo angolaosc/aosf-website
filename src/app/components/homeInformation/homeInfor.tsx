@@ -3,6 +3,8 @@ import freeEntry from "../../../assets/freeEntry.svg"
 import aosfTag from "../../../assets/aoscTag.svg"
 import calendar from "../../../assets/calendar.svg"
 import localization from "../../../assets/location.svg"
+import eventAgenda from "../../../assets/agendaDoEvento.svg"
+import imageBriefly from "../../../assets/brevemente.png"
 import Image from "next/image"
 
 export default function HomeInformation() {
@@ -36,7 +38,8 @@ export default function HomeInformation() {
             </section>
 
             <section className="board">
-                Conteúdo
+                <Image id="textEventAgenda" src={eventAgenda} alt="Agenda do Evento" />
+                <Image id="imageBriefly" src={imageBriefly} alt="Brevimente" />
             </section>
         </section>
     );
