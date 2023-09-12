@@ -7,6 +7,7 @@ import Link from "next/link";
 
 const inter = Inter({ subsets: ['latin'], weight: "500", style: "normal", })
 
+
 export default function RootLayout({
   children,
 }: {
@@ -14,7 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      
       <body className={inter.className}>
+      <link rel="icon" href="../assets/logo_community.png" sizes="any" />
       <header className="header">
           <div>
             <Link href="/">

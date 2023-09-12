@@ -1,0 +1,73 @@
+.TagContainer {
+    width: 1216px;
+    margin-top: 62px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sectionCalendar section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 14px;
+}
+
+#container article img:nth-child(1) {
+    width: 500px;
+}
+
+#container article img:nth-child(3) {
+    width: 150px;
+}
+
+#container article {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+#container article p {
+    font-size: 14px;
+    line-height: 134.523%;
+    margin-top: 15px;
+    margin-bottom: 26px;
+    width: 700px;
+}
+
+#sectionCalendar section:nth-child(1) {
+    margin-bottom: 37px;
+    font-weight: 500;
+}
+
+#sectionCalendar section:nth-child(2) {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#sectionCalendar section img {
+    width: 23px;
+}
+
+#sectionCalendar section strong {
+    font-weight: 700;
+    ;
+}
+
+section.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 93px;
+    margin-bottom: 140px;
+    background-color: red;
+    height: 552px;
+    border-radius: 15px;
+    border: 1px solid rgba(254, 42, 42, 0.26);
+    background: linear-gradient(134deg, rgba(4, 158, 168, 0.06) 1.22%, rgba(70, 37, 141, 0.00) 100%);
+}
