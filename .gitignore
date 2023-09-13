@@ -12,10 +12,6 @@
 /.next/
 /out/
 
-../node_modules/
-../package.json
-../yarn.lock
-
 # production
 /build
 
