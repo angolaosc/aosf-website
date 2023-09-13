@@ -1,0 +1,141 @@
+.TagContainer {
+    width: 1216px;
+    margin-top: 62px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sectionCalendar section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 14px;
+}
+
+#container article img:nth-child(1) {
+    width: 470px;
+}
+
+#container article img:nth-child(3) {
+    width: 150px;
+}
+
+#container article {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+#container article p {
+    font-size: 14px;
+    line-height: 134.523%;
+    margin-top: 15px;
+    margin-bottom: 26px;
+    width: 600px;
+}
+
+#sectionCalendar section:nth-child(1) {
+    margin-bottom: 37px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#sectionCalendar section:nth-child(2) {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#sectionCalendar section img {
+    width: 23px;
+}
+
+#sectionCalendar section strong {
+    font-weight: 700;
+}
+
+section.board {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 93px;
+    margin-bottom: 140px;
+    background-color: red;
+    height: 552px;
+    border-radius: 15px;
+    border: 1px solid rgba(254, 42, 42, 0.26);
+    background: linear-gradient(134deg, rgba(4, 158, 168, 0.06) 1.22%, rgba(70, 37, 141, 0.00) 100%);
+}
+
+section.board img#textEventAgenda {
+    width: 300px;
+}
+
+section.board #eventLine {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 30px;
+}
+
+#additionalInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 43px;
+}
+
+#additionalInformation img {
+    width: 470px;
+}
+
+#additionalInformation p {
+    color: #9B9B9B;
+    font-size: 13.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 8px;
+}
+
+.informations {
+    margin-top: 25px;
+}
+
+.informations span {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.informations p {
+    margin-top: 15px;
+
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 134.523%;
+}
+
+.board section.boardSection1 {
+    display: flex;
+    align-items: center;
+ 
+}
+
+.board section.boardSection1 img {
+    width: 430px;
+    height: 218px;
+}
+
+.board section.boardSection1 section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

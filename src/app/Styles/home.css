@@ -1,0 +1,78 @@
+.found {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: calc(100vh - 73px);
+    opacity: 0.93;
+    background: url("../../assets/background.png") lightgray 50% / cover no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    height: auto;
+}
+
+#aosfContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#aosf {
+    height: 50px;
+    margin-top: 10px;
+}
+
+section.date {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+section.date img {
+    height: 30px;
+    width: 40px;
+}
+
+section.date h1 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+section.listButton {
+    display: flex;
+    gap: 17px;
+    margin-top: 45px;
+}
+
+section.listButton button {
+    color: #1F1F1F;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: normal;
+
+    border-radius: 52px;
+    background: #FFF;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 15px 25px 0px rgba(92, 199, 255, 0.04);
+}
+
+section.listButton button:nth-child(2) {
+    border: 1px solid #FFF;
+    background-color: transparent;
+    color: #fff;
+}
+
+#aosfContainer h2 {
+    margin-top: 100px;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}

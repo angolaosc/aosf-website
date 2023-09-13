@@ -1,0 +1,32 @@
+footer {
+    width: 100%;
+    background: #0F0E19;
+    height: 291px;
+    margin-top: 188px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer section img {
+    width: 260px;
+    margin-right: 292px;
+}
+
+footer section {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+footer section a svg {
+    font-size: 20px;
+}
+
+footer section p {
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 134.523%;
+}

@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #0E0B14;
+}
+
+div {
+    width: 1216px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 73px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    color: #fff;
+    font-size: 14px;
+    line-height: normal;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #999;
+}

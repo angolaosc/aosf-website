@@ -1,0 +1,10 @@
+.organizationAndSupport {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+}
+
+.organizationAndSupport img {
+    width: 190px;;
+}
