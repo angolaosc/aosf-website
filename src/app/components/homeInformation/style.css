@@ -18,7 +18,7 @@
 }
 
 #container article img:nth-child(1) {
-    width: 500px;
+    width: 470px;
 }
 
 #container article img:nth-child(3) {
@@ -36,16 +36,17 @@
     line-height: 134.523%;
     margin-top: 15px;
     margin-bottom: 26px;
-    width: 700px;
+    width: 600px;
 }
 
 #sectionCalendar section:nth-child(1) {
     margin-bottom: 37px;
     font-weight: 500;
+    font-size: 14px;
 }
 
 #sectionCalendar section:nth-child(2) {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
 }
 
@@ -55,7 +56,6 @@
 
 #sectionCalendar section strong {
     font-weight: 700;
-    ;
 }
 
 section.board {
@@ -75,7 +75,6 @@ section.board {
 
 section.board img#textEventAgenda {
     width: 300px;
-    margin-bottom: 30px;
 }
 
 section.board #eventLine {
@@ -85,7 +84,58 @@ section.board #eventLine {
     margin-top: 30px;
 }
 
-#imageBriefly {
-    width: 600px;
-    height: 320px;
+#additionalInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 43px;
+}
+
+#additionalInformation img {
+    width: 470px;
+}
+
+#additionalInformation p {
+    color: #9B9B9B;
+    font-size: 13.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 8px;
+}
+
+.informations {
+    margin-top: 25px;
+}
+
+.informations span {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.informations p {
+    margin-top: 15px;
+
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 134.523%;
+}
+
+.board section.boardSection1 {
+    display: flex;
+    align-items: center;
+ 
+}
+
+.board section.boardSection1 img {
+    width: 430px;
+    height: 218px;
+}
+
+.board section.boardSection1 section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

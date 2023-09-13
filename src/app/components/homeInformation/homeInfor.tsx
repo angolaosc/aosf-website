@@ -4,22 +4,20 @@ import aosfTag from "../../../assets/aoscTag.svg"
 import calendar from "../../../assets/calendar.svg"
 import localization from "../../../assets/location.svg"
 import eventAgenda from "../../../assets/agendaDoEvento.svg"
-import imageBriefly from "../../../assets/brevemente.png"
+import verticalLine from "../../../assets/verticalLine.svg"
+import additionalInformation from "../../../assets/additionalInformation.svg"
+import brevimente from "../../../assets/brevemente.png"
 import Image from "next/image"
 
 export default function HomeInformation() {
     return (
         <section className="TagContainer">
             <section id="container">
-
                 <article>
                     <Image src={aosfTag} alt="" />
                     <p>
-                        Esse é um TEXTO DE EXEMPLO. A Festa do Software Livre é um encontro nacional de várias comunidades interessadas em Software Livre. Ao longo dos três dias vamos contar com várias apresentações, painéis e workshops. A primeira Festa do Software Livre da Moita decorreu nas instalações da extinta Universidade Independente, no Palheirão, em 2004, co-organizada pela Humaneasy Consulting e pela ANSOL – Associação Nacional para o Software Livre, e contou com o apoio do Município da Moita, da Universidade Independente e de várias entidades e comunidades ligadas ao Software Livre.<br /><br />
-
-                        A segunda edição da Festa do Software Livre, organizada em 2018 também pela Humaneasy Consulting e pela ANSOL com o apoio do Munícipio da Moita, incluiu um programa de palestras, demonstrações, workshops, informação, hackathons, zona para instalação de software livre, animação com música ao vivo e outras atracções. Durante o evento contámos com a presença e colaboração da Comunidade Ubuntu Portugal, Wikimedia Portugal, OSGeo Portugal, Drupal Portugal, D3, RepRap, Linux Tech, entre outros.
+                        Junte-se a nós para o Angola Open-source Fest Edição Hacktoberfest — uma celebração de um mês de colaboração e inovação em código aberto. <br /><br /> Mergulhe no mundo da programação, contribua para projetos significativos e faça parte de uma comunidade global de desenvolvedores que fazem a diferença. Prepare-se para abraçar o espírito do Hacktoberfest e elevar as suas habilidades de programação!
                     </p>
-
                     <Image src={freeEntry} alt="" />
                 </article>
 
@@ -31,15 +29,50 @@ export default function HomeInformation() {
 
                     <section>
                         <Image src={localization} alt="" />
-                        <p>Auditório do Edifício de  Dos Desenvolvedores <br />
-                            Angola e Designer, titulo como exemplo</p>
+                        <p>Event is hosted both online and in-person <br />
+                            Instituto Superior de Tecnologias de Informação e Comunicação - INSTIC  <br />
+                            57J9+233
+                            <br />
+                            Luanda, Luanda
+                            Angola</p>
                     </section>
                 </section>
             </section>
 
             <section className="board">
                 <Image id="textEventAgenda" src={eventAgenda} alt="Agenda do Evento" />
-                <Image id="imageBriefly" src={imageBriefly} alt="Brevimente" />
+                
+                <section className="boardSection1">
+                    <section>
+                    <Image src={verticalLine} alt="line" />
+                    <Image src={verticalLine} alt="line" />
+                    </section>
+
+                    <Image src={brevimente} alt="line" />
+
+                    <section>
+                    <Image src={verticalLine} alt="line" />
+                    <Image src={verticalLine} alt="line" />
+                    </section>
+                </section>
+            </section>
+
+            <section id="additionalInformation">
+                <Image src={additionalInformation} alt="Informações adicionais" />
+                <p>Algumas informações relativas a Angola Open-source Fest Edição Hacktoberfest</p>
+            </section>
+
+            <section className="informations">
+                <span>Titulo relevante</span>
+                <p>A primeira Festa do Software Livre da Moita decorreu nas instalações da extinta Universidade Independente, no Palheirão, em 2004, co-organizada pela Humaneasy Consulting e pela ANSOL – Associação Nacional para o Software Livre, e contou com o apoio do Município da Moita, da Universidade Independente e de várias entidades e comunidades ligadas ao Software Livre.</p>
+            </section>
+            <section className="informations">
+                <span>Titulo relevante</span>
+                <p>A primeira Festa do Software Livre da Moita decorreu nas instalações da extinta Universidade Independente, no Palheirão, em 2004, co-organizada pela Humaneasy Consulting e pela ANSOL – Associação Nacional para o Software Livre, e contou com o apoio do Município da Moita, da Universidade Independente e de várias entidades e comunidades ligadas ao Software Livre.</p>
+            </section>
+            <section className="informations">
+                <span>Titulo relevante</span>
+                <p>A primeira Festa do Software Livre da Moita decorreu nas instalações da extinta Universidade Independente, no Palheirão, em 2004, co-organizada pela Humaneasy Consulting e pela ANSOL – Associação Nacional para o Software Livre, e contou com o apoio do Município da Moita, da Universidade Independente e de várias entidades e comunidades ligadas ao Software Livre.</p>
             </section>
         </section>
     );

@@ -6,6 +6,7 @@ import fragment1 from "../assets/fragment1.svg"
 import fragment2 from "../assets/fragment2.svg"
 import Support from "./components/support/organizationAndSupport";
 import HomeInformation from "./components/homeInformation/homeInfor";
+import Footer from "./components/footer/footerComponent";
 
 export default function Home() {
   return (
@@ -38,6 +39,7 @@ export default function Home() {
       </section>
 
       <HomeInformation />
+      <Footer />
     </>
   )
 }
