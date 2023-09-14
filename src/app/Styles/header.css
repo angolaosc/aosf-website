@@ -68,3 +68,19 @@ li:hover {
         margin-right: 40px;
     }
 }
+
+@media (max-width: 435px) {
+    div.headerContainer img {
+        margin-left: 20px;
+    }
+
+    .menuMobile {
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 281px) {
+    .headerContainer img {
+        margin-right: 0px;
+    }
+}
