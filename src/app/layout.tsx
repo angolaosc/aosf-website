@@ -3,34 +3,51 @@ import "./global/globals.css";
 import "./Styles/header.css"
 import { Inter } from 'next/font/google'
 import CommunityLogo from "../assets/logo_community.png"
-import Link from "next/link";
+import { useState } from "react"
 
 const inter = Inter({ subsets: ['latin'], weight: "500", style: "normal", })
 
+export const metadata = {
+  title: "",
+  description: "",
+  icons: {
+    icon: [
+      "../assets/logo_community.png"
+    ],
+    apple: [
+      "/vercel.svg"
+    ],
+    shortcut: [
+      "/vercel.svg"
+    ]
+  },
+  manifest: "/vercel.svg"
+}
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
+
   return (
     <html lang="en">
-      
+
       <body className={inter.className}>
-      <link rel="icon" href="../assets/logo_community.png" sizes="any" />
-      <header className="header">
-          <div>
-            <Link href="/">
-              <Image src={CommunityLogo} alt="Logo" />
-            </Link>
-          <nav>
-            <Link href="/pages/opening">Abertura</Link>
-            <Link href="/pages/about">Sobre</Link>
-            <Link href="/pages/partners">Parceiros</Link>
-            <Link href="/pages/calendar">Agenda</Link>
-            <Link href="/pages/information">Informações</Link>
-            <Link href="/pages/contact">Contacto</Link>
-          </nav>
+        <header className="header">
+          <div className="headerContainer">
+            <Image src={CommunityLogo} alt="Logo" />
+
+            <button className="menuMobile">
+              MENU
+            </button>
+            <ul>
+              <li>Evento</li>
+              <li>Agenda</li>
+              <li>Informações</li>
+              <li>Parceiro</li>
+              <li>Contacto</li>
+            </ul>
           </div>
         </header>
         {children}</body>

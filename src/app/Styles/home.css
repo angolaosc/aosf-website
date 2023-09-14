@@ -3,7 +3,7 @@
     justify-content: center;
 
     width: 100%;
-    height: calc(100vh - 73px);
+    height: 100vh;
     opacity: 0.93;
     background: url("../../assets/background.png") lightgray 50% / cover no-repeat;
 }
@@ -11,13 +11,17 @@
 .container {
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 73px;
     height: auto;
 }
 
 #aosfContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    height: 300px;
 }
 
 #aosf {
@@ -50,6 +54,7 @@ section.listButton {
 }
 
 section.listButton button {
+    cursor: pointer;
     color: #1F1F1F;
     font-size: 13px;
     font-weight: 700;
@@ -60,19 +65,101 @@ section.listButton button {
     padding: 10px 14px;
     justify-content: center;
     align-items: center;
+    border: 1px solid #FFF;
     gap: 10px;
+    transition: 0.2s linear;
     box-shadow: 0px 15px 25px 0px rgba(92, 199, 255, 0.04);
+}
+
+section.listButton button:nth-child(2):hover {
+    background: rgba(255, 253, 253, 0.086);
+    box-shadow: 0 0 30px rgba(254, 42, 42, 0.141), inset 0 0 10px rgba(4, 158, 168, 0.06), inset 0 0 10px rgba(70, 37, 141, 0);
+    border: 1px solid rgba(254, 42, 42, 0.26);
+    background-image: linear-gradient(134deg, rgba(4, 158, 168, 0.06) 1.22%, rgba(70, 37, 141, 0.00) 100%);
+}
+
+section.listButton button:hover {
+    background: rgba(255, 253, 253, 0.086);
+    box-shadow: 0 0 30px rgba(254, 42, 42, 0.141), inset 0 0 10px rgba(4, 158, 168, 0.06), inset 0 0 10px rgba(70, 37, 141, 0);
+    border: 1px solid rgba(254, 42, 42, 0.26);
+    color: #fff;
+    background-image: linear-gradient(134deg, rgba(4, 158, 168, 0.06) 1.22%, rgba(70, 37, 141, 0.00) 100%);
 }
 
 section.listButton button:nth-child(2) {
     border: 1px solid #FFF;
     background-color: transparent;
     color: #fff;
+    transition: 0.2s;
 }
 
-#aosfContainer h2 {
-    margin-top: 100px;
-    font-size: 19px;
+.container h2 {
+    margin-top: 246px;
+    margin-bottom: 70px;
+    font-size: 22px;
     font-weight: 700;
-    margin-bottom: 50px;
+}
+
+#organization {
+    display: flex;
+    align-items: center;
+    gap: 112px;
+    margin-bottom: 30px;
+}
+
+#organization img:nth-child(2) {   height: 30px;
+   width: 160px;
+}
+
+#organization section img:nth-child(2) {
+    width: 170px;
+    height: 32px;
+}
+
+#organization section img:nth-child(1) {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+#organization section {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+
+@media (max-width: 675px) {
+    .container {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 744px) {
+    #aosf {
+        height: 40px;
+    }
+
+    section.listButton button, section.listButton button:nth-child(2)  {
+        padding: 8px 12px;
+    }
+
+    #organization section img:nth-child(1) {
+        height: 25px;
+        width: 25px;
+    }
+
+    #organization section img:nth-child(2) {
+        width: 160px;
+    height: 32px;
+    }
+
+    #organization img:nth-child(2) {   height: 30px;
+        width: 130px;
+        height: 26px;
+     }
+
+     .container h2 {
+        font-size: 20px;
+     }
 }

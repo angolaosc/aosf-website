@@ -3,8 +3,10 @@
     justify-content: space-between;
     align-items: end;
     width: 100%;
+    height: 100vh;
+    width: 1216px;
 }
 
 .organizationAndSupport img {
-    width: 190px;;
+    width: 180px;;
 }
