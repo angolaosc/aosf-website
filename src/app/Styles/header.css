@@ -3,6 +3,8 @@
     display: flex;
     justify-content: center;
     background: #0E0B14;
+    position: fixed;
+    z-index: 1000;
 }
 
 div {
@@ -13,7 +15,7 @@ div {
     height: 73px;
 }
 
-nav {
+ul {
     display: flex;
     gap: 20px;
 }
@@ -22,9 +24,13 @@ a {
     color: #fff;
     font-size: 14px;
     line-height: normal;
-    transition: 0.2s;
+    list-style: none;
+    cursor: pointer;
 }
 
-a:hover {
-    color: #999;
+li:hover {
+    background: var(--vf, linear-gradient(95deg, #FE2A2A 12.25%, #F7931E 108.64%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

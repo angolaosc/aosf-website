@@ -4,9 +4,14 @@ import angolaText from "../assets/Angola.svg"
 import openSourceText from "../assets/Open-SourceFest.svg"
 import fragment1 from "../assets/fragment1.svg"
 import fragment2 from "../assets/fragment2.svg"
+import CHAOSS_AFRICA_LOGO_opt from "../assets/chaoss-white-2.png"
+import communityLogo from "../assets/comunityLogoText.png"
+import communityIcon from "../assets/logo@4x.png"
+
 import Support from "./components/support/organizationAndSupport";
-import HomeInformation from "./components/homeInformation/homeInfor";
+import Informations from "./components/informations/homeInfor";
 import Footer from "./components/footer/footerComponent";
+import EventCalendar from "./components/eventCalendar";
 
 export default function Home() {
   return (
@@ -31,14 +36,20 @@ export default function Home() {
                 Saber mais
               </button>
             </section>
-
-            <h2>Organização e Apoio</h2>
-            <Support />
           </div>
+          <h2>Organização e Apoio</h2>
+          <section id="organization">
+            <section>
+              <Image src={communityIcon} alt="communityLogo" />
+              <Image src={communityLogo} alt="communityLogo" />
+            </section>
+            <Image src={CHAOSS_AFRICA_LOGO_opt} alt="CHAOSS_AFRICA" />
+          </section>
         </div>
       </section>
-
-      <HomeInformation />
+      <EventCalendar />
+      <Informations />
+      <Support />
       <Footer />
     </>
   )
