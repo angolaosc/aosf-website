@@ -11,13 +11,17 @@
 .container {
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 73px;
     height: auto;
 }
 
 #aosfContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    height: 300px;
 }
 
 #aosf {
@@ -91,6 +95,7 @@ section.listButton button:nth-child(2) {
 
 .container h2 {
     margin-top: 246px;
+    margin-bottom: 70px;
     font-size: 22px;
     font-weight: 700;
 }
@@ -121,4 +126,40 @@ section.listButton button:nth-child(2) {
     display: flex;
     align-items: end;
     gap: 10px;
+}
+
+@media (max-width: 675px) {
+    .container {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 744px) {
+    #aosf {
+        height: 40px;
+    }
+
+    section.listButton button, section.listButton button:nth-child(2)  {
+        padding: 8px 12px;
+    }
+
+    #organization section img:nth-child(1) {
+        height: 25px;
+        width: 25px;
+    }
+
+    #organization section img:nth-child(2) {
+        width: 160px;
+    height: 32px;
+    }
+
+    #organization img:nth-child(2) {   height: 30px;
+        width: 130px;
+        height: 26px;
+     }
+
+     .container h2 {
+        font-size: 20px;
+     }
 }

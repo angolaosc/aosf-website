@@ -3,6 +3,7 @@ import "./global/globals.css";
 import "./Styles/header.css"
 import { Inter } from 'next/font/google'
 import CommunityLogo from "../assets/logo_community.png"
+import { useState } from "react"
 
 const inter = Inter({ subsets: ['latin'], weight: "500", style: "normal", })
 
@@ -28,19 +29,24 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
   return (
     <html lang="en">
 
       <body className={inter.className}>
         <header className="header">
-          <div>
+          <div className="headerContainer">
             <Image src={CommunityLogo} alt="Logo" />
+
+            <button className="menuMobile">
+              MENU
+            </button>
             <ul>
-              <a href="">Evento</a>
-              <a href="">Agenda</a>
-              <a href="">Informações</a>
-              <a href="">Parceiro</a>
-              <a href="">Contacto</a>
+              <li>Evento</li>
+              <li>Agenda</li>
+              <li>Informações</li>
+              <li>Parceiro</li>
+              <li>Contacto</li>
             </ul>
           </div>
         </header>
