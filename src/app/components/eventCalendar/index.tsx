@@ -36,10 +36,10 @@ export default function EventCalendar() {
                 </section>
             </section>
 
-            <section className="board">
+            <strong className="board">
                 <Image id="textEventAgenda" src={eventAgenda} alt="Agenda do Evento" />
                 <h1>BREVIMENTE</h1>
-            </section>
+            </strong>
         </section>
     );
 }

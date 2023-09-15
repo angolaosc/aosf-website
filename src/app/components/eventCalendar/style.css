@@ -1,4 +1,4 @@
-section.board h1 {
+strong.board h1 {
     background: var(--vf, linear-gradient(95deg, #FE2A2A 12.25%, #F7931E 108.64%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -23,11 +23,10 @@ section.board h1 {
     }
 }
 
-section.board {
+strong.board {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 
     margin-top: 93px;
     margin-bottom: 140px;
@@ -96,7 +95,7 @@ section.board {
     font-weight: 700;
 }
 
-section.board img#textEventAgenda {
+strong.board img#textEventAgenda {
     width: 300px;
     margin-top: 50px;
 }
@@ -127,6 +126,12 @@ section.board img#textEventAgenda {
     #sectionCalendar {
         display: flex;
         margin-left: 134px;
+    }
+}
+
+@media (max-width: 1359px) {
+    strong.board {
+        width: 100%;
     }
 }
 
@@ -175,26 +180,26 @@ section.board img#textEventAgenda {
 }
 
 @media (max-width: 790px) {
-    section.board h1  {
+    strong.board h1  {
         font-size: 45px;
     }
 }
 
 @media (max-width: 709px) {
-    section.board img {
+    strong.board img {
         height: 25px;
     }
 }
 
 @media (max-width: 478px) {
-    section.board h1  {
+    strong.board h1  {
         font-size: 30px;
         margin-top: 100px;
     }
 }
 
 @media (max-width: 560px) {
-    #fullContainer .board {
+    strong.board {
         height: 500px;
     }
 }

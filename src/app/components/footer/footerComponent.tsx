@@ -1,5 +1,5 @@
 import "./style.css"
-import communityLogo from "../../../assets/logo_community.png"
+import communityLogo from "../../../assets/logoFooter.png"
 import Image from "next/image"
 import { FaLinkedin, FaFacebookF } from "react-icons/fa"
 
