@@ -11,6 +11,8 @@ footer {
 
 footer section img {
     width: 260px;
+    height: 40px;
+    object-fit: cover;
     margin-right: 292px;
 }
 
@@ -29,4 +31,57 @@ footer section p {
     font-size: 14px;
     font-weight: 500;
     line-height: 134.523%;
+}
+
+@media (max-width: 720px) {
+    footer span {
+        padding-left: 50px;
+        
+    }
+
+    footer strong {
+        padding-right: 50px;
+    }
+
+    footer section {
+        width: 100%;
+    }
+
+    footer section img {
+        margin-right: 0px;
+    }
+
+    footer section {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 499px) {
+    footer section {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    footer section strong  {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 435px) {
+    footer span {
+        padding-left: 20px;
+    }
+
+    footer span img {
+        height: 40px;
+    }
+
+    footer section strong  {
+        margin-left: 20px;
+    }
+
+    footer strong {
+        padding-right: 20px;
+    }
 }

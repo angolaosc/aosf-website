@@ -10,11 +10,41 @@ export default function Support() {
     return (
         <>
             <section className="organizationAndSupport">
-                <Image src={airbnbLogo} alt="AirbnbLogo" />
-                <Image src={microsoftLogo} alt="MicrosoftLogo" />
-                <Image src={fedexLogo} alt="FedexLogo" />
-                <Image src={soundCloud} alt="SoundCloud" />
-                <Image src={deezer} alt="Deezer" />
+                    <ul>
+                        <strong>Patrocinador(es)</strong>
+                        <li>
+                            <Image src={airbnbLogo} alt="AirbnbLogo" />
+                            <Image src={microsoftLogo} alt="MicrosoftLogo" />
+                            <Image src={fedexLogo} alt="FedexLogo" />
+                            <Image src={soundCloud} alt="SoundCloud" />
+                            <Image src={deezer} alt="Deezer" />
+
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <strong>Apoio</strong>
+                        <li>
+                            <Image src={airbnbLogo} alt="AirbnbLogo" />
+                            <Image src={microsoftLogo} alt="MicrosoftLogo" />
+                            <Image src={fedexLogo} alt="FedexLogo" />
+                            <Image src={soundCloud} alt="SoundCloud" />
+                            <Image src={deezer} alt="Deezer" />
+
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <strong>Parceiros de comunidade</strong>
+                        <li>
+                            <Image src={airbnbLogo} alt="AirbnbLogo" />
+                            <Image src={microsoftLogo} alt="MicrosoftLogo" />
+                            <Image src={fedexLogo} alt="FedexLogo" />
+                            <Image src={soundCloud} alt="SoundCloud" />
+                            <Image src={deezer} alt="Deezer" />
+
+                        </li>
+                    </ul>
             </section>
         </>
     )
