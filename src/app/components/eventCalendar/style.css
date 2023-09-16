@@ -141,7 +141,7 @@ strong.board img#textEventAgenda {
         margin-left: 0px;
     }
 
-    #container  {
+    #container {
         align-items: center;
     }
 
@@ -180,7 +180,7 @@ strong.board img#textEventAgenda {
 }
 
 @media (max-width: 790px) {
-    strong.board h1  {
+    strong.board h1 {
         font-size: 45px;
     }
 }
@@ -192,7 +192,7 @@ strong.board img#textEventAgenda {
 }
 
 @media (max-width: 478px) {
-    strong.board h1  {
+    strong.board h1 {
         font-size: 30px;
         margin-top: 100px;
     }
@@ -201,5 +201,22 @@ strong.board img#textEventAgenda {
 @media (max-width: 560px) {
     strong.board {
         height: 500px;
+    }
+}
+
+@media (max-width: 388px) {
+    #container article img:nth-child(1) {
+        height: 17px;
+        width: 220px;
+    }
+
+    #container article img:nth-child(3) {
+        height: 15px;
+    }
+}
+
+@media (max-width: 301px) {
+    #container article img:nth-child(3) {
+        height: 14.5px;
     }
 }

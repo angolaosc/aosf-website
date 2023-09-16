@@ -2,43 +2,56 @@ header {
     position: relative;
 }
 
+ul.textMenuMobile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+
+ul.textMenuMobile span {
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+ul.textMenuMobile span:hover {
+    color: #1c1c1c;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+
 #menu {
+    display: none;
     position: absolute;
-    top: 140%;
+    top: 134%;
     right: 0;
     background-color: #f1f1f1;
     border: 1px solid #ccc;
-    height: 200px;
+    margin-right: 50px;
     border-top: none;
-    min-width: 200px;
-    box-shadow: 0px 4px 8px rgba(151, 151, 151, 0.2);
+    box-shadow: 0px 4px 20px rgba(254, 42, 42, 0.048);
     z-index: 999;
-    border-radius: 4px;
+    border-radius: 8px;
     animation: fadeSlideIn 0.2s ease-in-out;
+
+    border: 1px solid rgba(254, 42, 42, 0.26);
+    background: #0f0e19f5;
 }
 
-
-li {
-    padding: 10px;
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: #333;
-    display: block;
-}
-
-/* Estilização da seta */
 #menu::before {
     content: "";
     position: absolute;
-    top: -20px;
-    left: 112%;
+    top: -21px;
+    left: 118%;
     margin-left: -50px;
     border-width: 10px;
     border-style: solid;
-    border-color: transparent transparent #f1f1f1 transparent;
+    border-color: transparent transparent rgba(254, 42, 42, 0.26) transparent;
+
+    background: linear-gradient(134deg, rgba(4, 158, 168, 0.06) 1.22%, rgb(6, 4, 10) 100%);
 }
 
 #openMenuButton svg {
@@ -49,6 +62,7 @@ a {
 #openMenuButton {
     background-color: transparent;
     cursor: pointer;
+    display: none;
 }
 
 @keyframes fadeSlideIn {
@@ -60,5 +74,33 @@ a {
     100% {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    #openMenuButton {
+        display: block;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    #openMenuButton {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 435px) {
+    #openMenuButton {
+        margin-right: 20px;
+    }
+
+    #openMenuButton svg {
+        font-size: 20px;
+    }
+
+    #menu {
+        margin-right: 21px;
     }
 }

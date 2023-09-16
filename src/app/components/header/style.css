@@ -7,10 +7,7 @@
     z-index: 1000;
 }
 
-.menuMobile {
-    display: none;
-    margin-right: 40px;
-}
+
 
 div.headerContainer {
     width: 1216px;
@@ -25,15 +22,15 @@ nav {
     gap: 20px;
 }
 
-a {
+li {
     color: #fff;
     font-size: 14px;
-    line-height: normal;
+    line-height: normlil;
     list-style: none;
     cursor: pointer;
 }
 
-a:hover {
+li:hover {
     background: var(--vf, linear-gradient(95deg, #FE2A2A 12.25%, #F7931E 108.64%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -72,10 +69,6 @@ a:hover {
 @media (max-width: 435px) {
     div.headerContainer img {
         margin-left: 20px;
-    }
-
-    .menuMobile {
-        margin-right: 20px;
     }
 }
 

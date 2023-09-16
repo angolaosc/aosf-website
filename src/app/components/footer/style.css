@@ -2,7 +2,6 @@ footer {
     width: 100%;
     background: #0F0E19;
     height: 291px;
-    margin-top: 188px;
 
     display: flex;
     align-items: center;
@@ -24,6 +23,7 @@ footer section {
 
 footer section a svg {
     font-size: 20px;
+    color: white;
 }
 
 footer section p {

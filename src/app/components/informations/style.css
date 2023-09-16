@@ -1,9 +1,6 @@
 .TagContainer {
     width: 1216px;
-    margin-top: 62px;
 }
-
-
 
 #additionalInformation {
     display: flex;
@@ -85,9 +82,23 @@
     }
 }
 
-@media (max-width: 312px) {
+@media (max-width: 388px) {
     #additionalInformation img {
         height: 17px;
+    }
+
+    .informations span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 301px)  {
+    #additionalInformation img {
+        height: 16px;
+    }
+
+    .informations span {
+        font-size: 17px;
     }
 }
 

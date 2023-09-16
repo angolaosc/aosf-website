@@ -18,12 +18,12 @@ export default function MenuMobile() {
                 {
                     isTrue ? (
                         <section id="menu">
-                            <ul>
-                                <li>Evento</li>
-                                <li>Agenda</li>
-                                <li>Informações</li>
-                                <li>Parceiro</li>
-                                <li>Contacto</li>
+                            <ul className="textMenuMobile">
+                                <span>Evento</span>
+                                <span>Agenda</span>
+                                <span>Informações</span>
+                                <span>Parceiro</span>
+                                <span>Contacto</span>
                             </ul>
                         </section>) : (<section></section>)
                 }

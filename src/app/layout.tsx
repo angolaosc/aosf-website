@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'], weight: "500", style: "normal", })
 
 export const metadata = {
   title: "Angola Open-Source Community",
-  description: "ere",
+  description: "The Angola Open-source Community aims to empower Angolan developers to contribute to open-source software and grow the open-source community in Angola.",
   icons: {
     icon: [
       "/favicon.ico?v=4"
