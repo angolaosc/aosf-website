@@ -12,7 +12,6 @@ strong.board h1 {
 }
 
 @keyframes pulse {
-
     0%,
     100% {
         transform: scale(1) rotate(0deg);
@@ -37,9 +36,7 @@ strong.board {
 }
 
 #container {
-    width: 1216px;
     margin-top: 62px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -105,6 +102,10 @@ strong.board img#textEventAgenda {
         margin-right: 20px;
         margin-left: 20px;
     }
+
+    #sectionCalendar {
+        margin-right: 20px;
+    }
 }
 
 @media (max-width: 1340px) {
@@ -114,9 +115,16 @@ strong.board img#textEventAgenda {
         align-items: center;
     }
 
-    section#fullContainer {
-        padding-right: 50px;
-        margin-left: 50px;
+    #sectionCalendar {
+        margin-right: 40px;
+    }
+
+    #fullContainer strong.board {
+        width: 100%;
+    }
+
+    #fullContainer {
+        padding: 50px;
     }
 
     #container article img {
@@ -126,12 +134,6 @@ strong.board img#textEventAgenda {
     #sectionCalendar {
         display: flex;
         margin-left: 134px;
-    }
-}
-
-@media (max-width: 1359px) {
-    strong.board {
-        width: 100%;
     }
 }
 
@@ -195,6 +197,11 @@ strong.board img#textEventAgenda {
     strong.board h1 {
         font-size: 30px;
         margin-top: 100px;
+    }
+
+    #fullContainer strong.board  {
+        height: 330px;
+        margin-bottom: 30px;
     }
 }
 

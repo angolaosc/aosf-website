@@ -104,3 +104,11 @@ ul.textMenuMobile span:hover {
         margin-right: 21px;
     }
 }
+
+@media (max-width: 768px) {
+     header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

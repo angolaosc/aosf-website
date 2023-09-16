@@ -13,12 +13,12 @@ export default function Footer() {
                 </span>
 
                <strong>
-               <a id="socialMedia" href="https://web.facebook.com/aoscangola">
-                    <FaFacebookF />
-                </a>
-                <a id="socialMedia" href="https://www.linkedin.com/company/angola-open-source-community/">
-                    <FaLinkedin />
-                </a>
+                    <a id="socialMedia" href="https://web.facebook.com/aoscangola">
+                        <FaFacebookF />
+                    </a>
+                    <a id="socialMedia" href="https://www.linkedin.com/company/angola-open-source-community/">
+                        <FaLinkedin />
+                    </a>
                </strong>
             </section>
         </footer>

@@ -36,7 +36,10 @@ export default function EventCalendar() {
                 </section>
             </section>
 
-           
+            <strong className="board">
+                <Image id="textEventAgenda" src={eventAgenda} alt="Agenda do Evento" />
+                <h1>BREVIMENTE</h1>
+            </strong>
         </section>
     );
 }

@@ -33,14 +33,18 @@ footer section p {
     line-height: 134.523%;
 }
 
+footer strong {
+    display: flex;
+    gap: 15px;;
+}
+
 @media (max-width: 720px) {
     footer span {
-        padding-left: 50px;
-        
+        padding-left: 40px;
     }
 
     footer strong {
-        padding-right: 50px;
+        padding-right: 40px;
     }
 
     footer section {

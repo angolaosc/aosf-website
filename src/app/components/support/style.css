@@ -60,15 +60,14 @@
     }
 }
 
-
 @media (max-width: 1340px) {
     .organizationAndSupport {
         width: 100%;
     }
 
     .organizationAndSupport ul {
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 }
 

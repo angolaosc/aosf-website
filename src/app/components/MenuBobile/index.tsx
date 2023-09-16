@@ -19,11 +19,11 @@ export default function MenuMobile() {
                     isTrue ? (
                         <section id="menu">
                             <ul className="textMenuMobile">
-                                <span>Evento</span>
-                                <span>Agenda</span>
-                                <span>Informações</span>
-                                <span>Parceiro</span>
-                                <span>Contacto</span>
+                                <span onClick={() => setIsTrue(false)}>Evento</span>
+                                <span onClick={() => setIsTrue(false)}>Agenda</span>
+                                <span onClick={() => setIsTrue(false)}>Informações</span>
+                                <span onClick={() => setIsTrue(false)}>Parceiro</span>
+                                <span onClick={() => setIsTrue(false)}>Contacto</span>
                             </ul>
                         </section>) : (<section></section>)
                 }

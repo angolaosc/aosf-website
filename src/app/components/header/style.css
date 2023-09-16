@@ -77,3 +77,10 @@ li:hover {
         margin-right: 0px;
     }
 }
+
+@media (max-width: 768px) {
+    header {
+        height: 60px;
+        align-items: center;
+    }
+}
