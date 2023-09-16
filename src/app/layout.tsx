@@ -1,56 +1,38 @@
-import Image from "next/image"
+import Header from "./components/header";
 import "./global/globals.css";
-import "./Styles/header.css"
 import { Inter } from 'next/font/google'
-import CommunityLogo from "../assets/logo_community.png"
-import { useState } from "react"
 
 const inter = Inter({ subsets: ['latin'], weight: "500", style: "normal", })
 
 export const metadata = {
-  title: "",
-  description: "",
+  title: "Angola Open-Source Community",
+  description: "ere",
   icons: {
     icon: [
-      "../assets/logo_community.png"
+      "/favicon.ico?v=4"
     ],
     apple: [
-      "/vercel.svg"
+      "/apple-touch-icon.png?v=4"
     ],
-    shortcut: [
-      "/vercel.svg"
+    shortcur: [
+      "/apple-touch-icon.png"
     ]
   },
-  manifest: "/vercel.svg"
 }
+
+
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
-
   return (
     <html lang="en">
-
       <body className={inter.className}>
-        <header className="header">
-          <div className="headerContainer">
-            <Image src={CommunityLogo} alt="Logo" />
-
-            <button className="menuMobile">
-              MENU
-            </button>
-            <ul>
-              <li>Evento</li>
-              <li>Agenda</li>
-              <li>Informações</li>
-              <li>Parceiro</li>
-              <li>Contacto</li>
-            </ul>
-          </div>
-        </header>
-        {children}</body>
+        <Header />
+        {children}
+        </body>
     </html>
   )
 }

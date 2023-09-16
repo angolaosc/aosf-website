@@ -1,5 +1,64 @@
+header {
+    position: relative;
+}
+
 #menu {
-    background-color: red;
-    height: 100%;
-    width: 100%;
+    position: absolute;
+    top: 140%;
+    right: 0;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    height: 200px;
+    border-top: none;
+    min-width: 200px;
+    box-shadow: 0px 4px 8px rgba(151, 151, 151, 0.2);
+    z-index: 999;
+    border-radius: 4px;
+    animation: fadeSlideIn 0.2s ease-in-out;
+}
+
+
+li {
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+/* Estilização da seta */
+#menu::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 112%;
+    margin-left: -50px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #f1f1f1 transparent;
+}
+
+#openMenuButton svg {
+    font-size: 23px;
+    color: #f1f1f1;
+}
+
+#openMenuButton {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@keyframes fadeSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

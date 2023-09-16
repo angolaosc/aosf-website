@@ -1,21 +1,33 @@
-import { Dispatch, SetStateAction } from "react";
-import "./style"
 
-interface MenuProps {
-    setMenuIsVisible: Dispatch<SetStateAction<boolean>>
-    setIsVisible: boolean;
-}
+"use client"
+import { useState } from "react"
+import "./style.css"
 
-export default function MenuMobile({setMenuIsVisible, setIsVisible}:MenuProps) {
+import { HiMenuAlt3 } from "react-icons/hi"
+
+export default function MenuMobile() {
+    const [isTrue, setIsTrue] = useState(false);
 
     return (
         <>
-        <section id="menu">
-            <button onClick={() => setMenuIsVisible(false)}>
-                close
-            </button>
-            Menu
-        </section>
+            <header>
+                <button id="openMenuButton" onClick={() => setIsTrue(!isTrue)}>
+                    <HiMenuAlt3 />
+                </button>
+
+                {
+                    isTrue ? (
+                        <section id="menu">
+                            <ul>
+                                <li>Evento</li>
+                                <li>Agenda</li>
+                                <li>Informações</li>
+                                <li>Parceiro</li>
+                                <li>Contacto</li>
+                            </ul>
+                        </section>) : (<section></section>)
+                }
+            </header>
         </>
     )
 }
