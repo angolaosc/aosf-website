@@ -1,6 +1,6 @@
 import Image from "next/image"
 import freeEntry from "../../../assets/freeEntry.svg"
-import aosfTag from "../../../assets/aoscTag.svg"
+import aosfTag from "../../../assets/aoscTag.png"
 import calendar from "../../../assets/calendar.svg"
 import localization from "../../../assets/location.svg"
 import eventAgenda from "../../../assets/agendaDoEvento.svg"
@@ -8,7 +8,7 @@ import "./style.css"
 
 export default function EventCalendar() {
     return (
-        <>
+        <section id="fullContainer">
             <section id="container">
                 <article>
                     <Image src={aosfTag} alt="" />
@@ -36,10 +36,10 @@ export default function EventCalendar() {
                 </section>
             </section>
 
-            <section className="board">
+            <strong className="board">
                 <Image id="textEventAgenda" src={eventAgenda} alt="Agenda do Evento" />
                 <h1>BREVIMENTE</h1>
-            </section>
-        </>
+            </strong>
+        </section>
     );
 }
