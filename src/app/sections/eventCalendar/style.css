@@ -1,0 +1,231 @@
+strong.board h1 {
+    background: var(--vf, linear-gradient(95deg, #FE2A2A 12.25%, #F7931E 108.64%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 160px;
+    font-weight: 900;
+
+    font-size: 60px;
+    position: relative;
+    animation: pulse 4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    50% {
+        transform: scale(1.2) rotate(30deg);
+    }
+}
+
+strong.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 93px;
+    margin-bottom: 140px;
+    height: 552px;
+    border-radius: 15px;
+    border: 1px solid rgba(254, 42, 42, 0.26);
+    background: linear-gradient(134deg, rgba(4, 158, 168, 0.06) 1.22%, rgba(70, 37, 141, 0.00) 100%);
+}
+
+#container {
+    margin-top: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#container article {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+#container article p {
+    font-size: 14px;
+    line-height: 134.523%;
+    margin-top: 15px;
+    margin-bottom: 26px;
+    width: 600px;
+}
+
+#sectionCalendar section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+#container article img:nth-child(1) {
+    width: 450px;
+    height: 29px;
+}
+
+#container article img:nth-child(3) {
+    width: 150px;
+}
+
+#sectionCalendar section:nth-child(1) {
+    margin-bottom: 37px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#sectionCalendar section:nth-child(2) {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#sectionCalendar section img {
+    width: 23px;
+}
+
+#sectionCalendar section strong {
+    font-weight: 700;
+}
+
+strong.board img#textEventAgenda {
+    width: 300px;
+    margin-top: 50px;
+}
+
+@media (max-width: 435px) {
+    .fullcontainer {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #sectionCalendar {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1340px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sectionCalendar {
+        margin-right: 40px;
+    }
+
+    .fullcontainer strong.board {
+        width: 100%;
+    }
+
+    .fullcontainer {
+        padding: 50px;
+    }
+
+    #container article img {
+        margin-bottom: 17px;
+    }
+
+    #sectionCalendar {
+        display: flex;
+        margin-left: 134px;
+    }
+}
+
+@media (max-width: 914px) {
+    #sectionCalendar {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    #container {
+        align-items: center;
+    }
+
+    #container article img:nth-child(1) {
+        width: 284px;
+        height: 22px;
+    }
+}
+
+@media (max-width: 770px) {
+    #container article img {
+        height: 25px;
+    }
+}
+
+@media (max-width: 763px) {
+    #container article img:nth-child(1) {
+        width: 300px;
+        height: 22px;
+    }
+
+    #container article img:nth-child(3) {
+        height: 16PX;
+        margin-left: -10px;
+    }
+}
+
+@media (max-width: 754px) {
+    #container article p {
+        width: 100%;
+    }
+
+    #container {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 790px) {
+    strong.board h1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 709px) {
+    strong.board img {
+        height: 25px;
+    }
+}
+
+@media (max-width: 478px) {
+    strong.board h1 {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    .fullcontainer strong.board  {
+        height: 330px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 560px) {
+    strong.board {
+        height: 500px;
+    }
+}
+
+@media (max-width: 388px) {
+    #container article img:nth-child(1) {
+        height: 17px;
+        width: 220px;
+    }
+
+    #container article img:nth-child(3) {
+        height: 15px;
+    }
+}
+
+@media (max-width: 301px) {
+    #container article img:nth-child(3) {
+        height: 14.5px;
+    }
+}
