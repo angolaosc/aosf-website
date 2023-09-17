@@ -62,6 +62,7 @@ strong.board {
     gap: 10px;
 
     font-size: 14px;
+    padding-left: 20px;
 }
 
 #container article img:nth-child(1) {

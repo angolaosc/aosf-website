@@ -26,7 +26,7 @@ ul.textMenuMobile span:hover {
 #menu {
     display: none;
     position: absolute;
-    top: 134%;
+    top: 90%;
     right: 0;
     background-color: #f1f1f1;
     border: 1px solid #ccc;
