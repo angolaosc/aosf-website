@@ -1,9 +1,11 @@
+"use client";
 import Image from "next/image";
 import freeEntry from "../../../assets/freeEntry.svg";
 import aosfTag from "../../../assets/aoscTag.png";
 import calendar from "../../../assets/calendar.svg";
 import localization from "../../../assets/location.svg";
 import eventAgenda from "../../../assets/agendaDoEvento.svg";
+import { motion } from "framer-motion";
 import "./style.css";
 
 interface PropsType {
@@ -15,8 +17,20 @@ export default function EventCalendar({ id }: PropsType) {
     <section className="fullContainer" id={id}>
       <section id="container">
         <article>
-          <Image src={aosfTag} alt="" />
-          <p>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            <Image src={aosfTag} alt="" />
+          </motion.div>
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+          >
             Junte-se a nós para o Angola Open-source Fest Edição Hacktoberfest —
             uma celebração de um mês de colaboração e inovação em código aberto.{" "}
             <br />
@@ -25,11 +39,17 @@ export default function EventCalendar({ id }: PropsType) {
             desenvolvedores que fazem a diferença. Prepare-se para abraçar o
             espírito do Hacktoberfest e elevar as suas habilidades de
             programação!
-          </p>
+          </motion.p>
           <Image src={freeEntry} alt="" />
         </article>
 
-        <section id="sectionCalendar">
+        <motion.section
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.7 }}
+          id="sectionCalendar"
+        >
           <section>
             <Image src={calendar} alt="" />
             <p>
@@ -49,12 +69,12 @@ export default function EventCalendar({ id }: PropsType) {
               Luanda, Luanda Angola
             </p>
           </section>
-        </section>
+        </motion.section>
       </section>
 
       <strong className="board">
         <Image id="textEventAgenda" src={eventAgenda} alt="Agenda do Evento" />
-        <h1>BREVIMENTE</h1>
+        <h1>BREVEMENTE</h1>
       </strong>
     </section>
   );

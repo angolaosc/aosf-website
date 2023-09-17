@@ -7,10 +7,10 @@ export function useScrollPage({ event, href }: PropsType) {
   event.preventDefault();
   const section = document.querySelector(href);
 
-  const initPosition = section?.offsetTop;
+  const startingPosition = section?.offsetTop;
 
   window.scrollTo({
-    top: initPosition - 88,
+    top: startingPosition - 88,
     behavior: "smooth",
   });
 }
