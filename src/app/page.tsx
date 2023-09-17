@@ -1,12 +1,12 @@
 import "./Styles/home.css";
-import Image from "next/image"
-import angolaText from "../assets/Angola.svg"
-import openSourceText from "../assets/Open-SourceFest.svg"
-import fragment1 from "../assets/fragment1.svg"
-import fragment2 from "../assets/fragment2.svg"
-import CHAOSS_AFRICA_LOGO_opt from "../assets/chaoss-white-2.png"
-import communityLogo from "../assets/comunityLogoText.png"
-import communityIcon from "../assets/logo@4x.png"
+import Image from "next/image";
+import angolaText from "../assets/Angola.svg";
+import openSourceText from "../assets/Open-SourceFest.svg";
+import fragment1 from "../assets/fragment1.svg";
+import fragment2 from "../assets/fragment2.svg";
+import CHAOSS_AFRICA_LOGO_opt from "../assets/chaoss-white-2.png";
+import communityLogo from "../assets/comunityLogoText.png";
+import communityIcon from "../assets/logo@4x.png";
 
 import Support from "./components/support/organizationAndSupport";
 import Informations from "./components/informations/homeInfor";
@@ -29,12 +29,8 @@ export default function Home() {
             </section>
 
             <section className="listButton">
-              <button>
-                Entrar em Contacto
-              </button>
-              <button>
-                Saber mais
-              </button>
+              <button>Entrar em Contacto</button>
+              <button>Saber mais</button>
             </section>
           </div>
           <h2>Organização e Apoio</h2>
@@ -47,10 +43,10 @@ export default function Home() {
           </section>
         </div>
       </section>
-      <EventCalendar />
-      <Informations />
-      <Support />
-      <Footer />
+      <EventCalendar id="schedule" />
+      <Informations id="information" />
+      <Support id="partner" />
+      <Footer id="contact" />
     </>
-  )
+  );
 }

@@ -98,7 +98,7 @@ strong.board img#textEventAgenda {
 }
 
 @media (max-width: 435px) {
-    #fullContainer {
+    .fullcontainer {
         margin-right: 20px;
         margin-left: 20px;
     }
@@ -119,11 +119,11 @@ strong.board img#textEventAgenda {
         margin-right: 40px;
     }
 
-    #fullContainer strong.board {
+    .fullcontainer strong.board {
         width: 100%;
     }
 
-    #fullContainer {
+    .fullcontainer {
         padding: 50px;
     }
 
@@ -199,7 +199,7 @@ strong.board img#textEventAgenda {
         margin-top: 100px;
     }
 
-    #fullContainer strong.board  {
+    .fullcontainer strong.board  {
         height: 330px;
         margin-bottom: 30px;
     }
