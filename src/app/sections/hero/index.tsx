@@ -11,6 +11,12 @@ import communityIcon from "../../../assets/logo@4x.png";
 import { motion } from "framer-motion";
 
 export default function Hero() {
+
+  const openExternalLink = (externalLink:string) => {
+    // Open the external link in a new tab or window
+    window.open(externalLink, '_blank');
+  };
+
   return (
     <motion.section className="found">
       <div className="container">
@@ -34,7 +40,7 @@ export default function Hero() {
             className="date"
           >
             <Image id="date" src={fragment1} alt="fragment" />
-            <h1>00´ AGO´ 2023</h1>
+            <h1>Nos dias 6, 15, 24 e 27 de Outubro</h1>
             <Image id="date" src={fragment2} alt="fragment" />
           </motion.div>
 
@@ -44,16 +50,18 @@ export default function Hero() {
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 1.8 }}
+              onClick={()=> openExternalLink("https://events.mlh.io/events/10184-angola-open-source-fest-hacktoberfest-edition")}
             >
-              Entrar em Contacto
+              Inscrever-se para o evento
             </motion.button>
             <motion.button
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 2.4 }}
+              onClick={()=> openExternalLink("https://unstop.com/o/nRNxQZ4?lb=t91qM2wi")}
             >
-              Saber mais
+              Inscrever-se para o Hackathon
             </motion.button>
           </section>
         </div>
@@ -63,7 +71,7 @@ export default function Hero() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 2.8 }}
         >
-          Organização e Apoio
+          Organização
         </motion.h2>
         <motion.div
           initial={{ opacity: 0 }}

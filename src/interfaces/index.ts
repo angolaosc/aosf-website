@@ -13,5 +13,6 @@ export interface PropsTypeLogo{
 export interface PropsTypeMenu{
   id: number,
   title: string,
-  target: string
+  target: string,
+  url: string
 }
