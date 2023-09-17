@@ -6,9 +6,8 @@ import openSourceText from "../../../assets/Open-SourceFest.svg";
 import fragment1 from "../../../assets/fragment1.svg";
 import fragment2 from "../../../assets/fragment2.svg";
 import CHAOSS_AFRICA_LOGO_opt from "../../../assets/chaoss-white-2.png";
-import communityLogo from "../../../assets/comunityLogoText.png";
-import communityIcon from "../../../assets/logo@4x.png";
 import { motion } from "framer-motion";
+import AngolaOpenSourceCommunityLogo from "@/app/components/community_open_source_angola_logo/logo";
 
 export default function Hero() {
 
@@ -80,10 +79,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 3.2 }}
           id="organization"
         >
-          <section>
-            <Image src={communityIcon} alt="communityLogo" />
-            <Image src={communityLogo} alt="communityLogo" />
-          </section>
+          <AngolaOpenSourceCommunityLogo />
           <Image src={CHAOSS_AFRICA_LOGO_opt} alt="CHAOSS_AFRICA" />
         </motion.div>
       </div>

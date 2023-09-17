@@ -4,7 +4,6 @@ import aosfTag from "../../../assets/aoscTag.png"
 import calendar from "../../../assets/calendar.svg"
 import localization from "../../../assets/location.svg"
 import eventAgenda from "../../../assets/agendaDoEvento.svg"
-import "./style.css"
 
 export default function EventCalendar() {
     return (
@@ -20,10 +19,8 @@ export default function EventCalendar() {
 
                 <section id="sectionCalendar">
                     <section className="calendarInformation">
-                        
                             <Image src={calendar} alt="" />
                             <p>19 e 20 de Outubro | 2023 <br /> <strong>Terça e Quarta-Feira</strong></p>
-                        
                     </section>
 
                     <section>

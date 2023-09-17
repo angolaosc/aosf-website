@@ -126,35 +126,10 @@ section.listButton button:nth-child(2) {
   width: 160px;
 }
 
-#organization section img:nth-child(2) {
-  width: 170px;
-  height: 32px;
-}
-
-#organization section img:nth-child(1) {
-  width: 30px;
-  height: 30px;
-  object-fit: cover;
-}
-
-#organization section {
-  display: flex;
-  align-items: end;
-  gap: 10px;
-}
-
 @media (max-width: 675px) {
   .container {
     margin-right: 40px;
     margin-left: 40px;
-  }
-
-  #organization section:nth-child(1) {
-    margin-left: 20px;
-  }
-
-  #organization img:nth-child(2) {
-    margin-right: 20px;
   }
 
   #organization {
@@ -246,7 +221,7 @@ section.listButton button:nth-child(2) {
 
   #organization {
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
   }
 
   #aosf {

@@ -5,7 +5,6 @@ strong.board h1 {
     -webkit-text-fill-color: transparent;
     margin-top: 160px;
     font-weight: 900;
-
     font-size: 60px;
     position: relative;
     animation: pulse 4s ease-in-out infinite;
@@ -29,6 +28,8 @@ strong.board {
 
     margin-top: 93px;
     margin-bottom: 140px;
+    margin-left: 40px;
+    margin-right: 40px;
     height: 552px;
     border-radius: 15px;
     border: 1px solid rgba(254, 42, 42, 0.26);
@@ -40,6 +41,8 @@ strong.board {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #container article {
@@ -106,6 +109,11 @@ strong.board img#textEventAgenda {
 
     #sectionCalendar {
         margin-right: 20px;
+    }
+
+    #container {
+        margin-right: 20px;
+        margin-left: 20px;
     }
 }
 
@@ -178,7 +186,6 @@ strong.board img#textEventAgenda {
     }
 
     #container {
-        width: 100%;
         padding: 0 15px;
     }
 }

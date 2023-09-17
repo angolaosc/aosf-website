@@ -6,7 +6,7 @@ export interface PropsTypeInformation{
 
 export interface PropsTypeLogo{
   id: number,
-  src: string,
+  src: any,
   alt: string
 }
 

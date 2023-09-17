@@ -5,6 +5,13 @@ import soundCloud from "@/assets/organization/soundCloud.svg";
 import deezer from "@/assets/organization/deezer.svg";
 import { PropsTypeLogo, PropsTypeInformation, PropsTypeMenu } from "@/interfaces";
 
+import ChaossAfricaLogo from "@/assets/chaoss-white-2.png";
+import Culysoft from "@/assets/Silver/culysoft.png"
+import GitHub_Logo_White from "@/assets/In-kind/GitHub_Logo_White.png"
+
+import DL_logo_2018_color from "@/assets/Community/DL_logo_2018_color.png"
+import MozdevzLogo from "@/assets/Community/Mozdevz logo - White.png"
+
 
 export const menu: PropsTypeMenu[] = [
   {
@@ -27,7 +34,7 @@ export const menu: PropsTypeMenu[] = [
   },
   {
     id: 4,
-    title: "Parceiros",
+    title: "Patrocinadores",
     target: "#partner", // ID do componente alvo
     url: "",
   },
@@ -71,32 +78,18 @@ export const informations: PropsTypeInformation[] =  [
 
 
 export const platinumLogos: PropsTypeLogo[] = [
-  { id: 0, src: fedexLogo, alt: "FedexLogo" },
-  { id: 1, src: soundCloud, alt: "SoundCloud" },
-  { id: 2, src: deezer, alt: "Deezer" },
-  { id: 3, src: airbnbLogo, alt: "AirbnbLogo" },
-  { id: 4, src: microsoftLogo, alt: "MicrosoftLogo" },
-  { id: 5, src: fedexLogo, alt: "FedexLogo" },
-  { id: 6, src: deezer, alt: "Deezer" },
+  { id: 0, src: ChaossAfricaLogo, alt: "ChaossAfricaLogo" },
 ];
 
 export const silverLogos: PropsTypeLogo[] = [
-  { id: 0, src: airbnbLogo, alt: "AirbnbLogo" },
-  { id: 1, src: microsoftLogo, alt: "MicrosoftLogo" },
-  { id: 2, src: soundCloud, alt: "SoundCloud" },
-  { id: 3, src: deezer, alt: "Deezer" },
+  { id: 0, src: Culysoft, alt: "Culysoft" },
 ];
 
 export const inKindSponsors: PropsTypeLogo[] = [
-  { id: 0, src: fedexLogo, alt: "FedexLogo" },
-  { id: 1, src: soundCloud, alt: "SoundCloud" },
-  { id: 2, src: deezer, alt: "Deezer" },
+  { id: 0, src: GitHub_Logo_White, alt: "GitHub_Logo_White" },
 ];
 
 export const communityLogos: PropsTypeLogo[] = [
-  { id: 3, src: airbnbLogo, alt: "AirbnbLogo" },
-  { id: 1, src: microsoftLogo, alt: "MicrosoftLogo" },
-  { id: 0, src: fedexLogo, alt: "FedexLogo" },
-  { id: 1, src: soundCloud, alt: "SoundCloud" },
-  { id: 2, src: deezer, alt: "Deezer" },
+  { id: 3, src: DL_logo_2018_color, alt: "DL_logo_2018_color" },
+  { id: 1, src: MozdevzLogo, alt: "MozdevzLogo" },
 ];

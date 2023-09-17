@@ -7,8 +7,6 @@
     z-index: 1000;
 }
 
-
-
 div.headerContainer {
     width: 1216px;
     display: flex;
@@ -29,6 +27,7 @@ a {
     list-style: none;
     cursor: pointer;
 }
+
 
 a:hover {
     background: var(--vf, linear-gradient(95deg, #FE2A2A 12.25%, #F7931E 108.64%));
@@ -62,7 +61,6 @@ a:hover {
         width: 166px;
         height: 30px;
         object-fit: cover;
-        margin-right: 40px;
     }
 }
 
