@@ -8,8 +8,8 @@ import { useScrollPage } from "@/app/hooks/useScrollPage";
 import { menu } from "@/utilities/data";
 
 export default function Header() {
-  const scrollThePage = (event: any, href: any) => {
-    useScrollPage({ event, href });
+  const scrollThePage = (event: any, href: String) => {
+    useScrollPage({ event, href});
   };
 
   return (
@@ -19,9 +19,9 @@ export default function Header() {
           <Image src={CommunityLogo} alt="Logo" />
           <MenuMobile />
           <nav>
-            {menu.map(({ id, title, target }) => (
+            {menu.map(({ id, title, target}) => (
               <a
-                href={target}
+                href=  {target}
                 onClick={(e) => scrollThePage(e, target)}
                 key={id}
               >

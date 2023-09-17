@@ -28,9 +28,8 @@ export default function EventCalendar() {
 
                     <section>
                         <Image src={localization} alt="" />
-                        <p>Event is hosted both online and in-person <br />
-                            Instituto Superior de Tecnologias de Informação e Comunicação - INSTIC  <br />
-                            57J9+233
+                        <p>Online <br/>
+                            Zoom <br/>
                             <br />
                             Luanda, Luanda
                             Angola</p>

@@ -53,19 +53,15 @@ export default function EventCalendar({ id }: PropsType) {
           <section>
             <Image src={calendar} alt="" />
             <p>
-              19 e 20 de Setembro | 2023 <br />{" "}
-              <strong>Terça e Quarta-Feira</strong>
+              06 a 27 de Outubro | 2023 <br />{" "}
+              <strong>4 eventos em Outubro</strong>
             </p>
           </section>
 
           <section>
             <Image src={localization} alt="" />
             <p>
-              Event is hosted both online and in-person <br />
-              Instituto Superior de Tecnologias de Informação e Comunicação -
-              INSTIC <br />
-              57J9+233
-              <br />
+              Online <br />
               Luanda, Luanda Angola
             </p>
           </section>
