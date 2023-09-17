@@ -24,7 +24,7 @@ export const menu: PropsTypeMenu[] = [
   },
   {
     id: 4,
-    title: "Parceiros",
+    title: "Patrocinadores",
     target: "#partner", // ID do componente alvo
   },
   {

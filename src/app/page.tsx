@@ -1,6 +1,7 @@
 import { Section } from "./sections";
 import Footer from "./components/footer/footerComponent";
 import Hero from "./sections/hero";
+import CopyrightFooter from "./components/copyrightFooter";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Section.Support id="partner" />
       </Section.Root>
       <Footer id="contact" />
+      <CopyrightFooter />
     </>
   );
 }

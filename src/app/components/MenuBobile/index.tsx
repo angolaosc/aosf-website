@@ -3,14 +3,14 @@ import { useState } from "react";
 import "./style.css";
 
 import { HiMenuAlt3 } from "react-icons/hi";
-import { useScrollPage } from "@/app/hooks/useScrollPage";
+import { UseScrollPage } from "@/app/hooks/useScrollPage";
 import { menu } from "@/utilities/data";
 
 export default function MenuMobile() {
   const [openMenuMobile, setOpenMenuMobile] = useState(false);
 
   const scrollThePage = (event: any, href: any) => {
-    useScrollPage({ event, href });
+    UseScrollPage({ event, href });
     setOpenMenuMobile((prev) => !prev);
   };
 

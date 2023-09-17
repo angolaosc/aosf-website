@@ -52,7 +52,6 @@
     }
 
     #additionalInformation img {
-
         height: 30px;
 
     }
@@ -64,11 +63,6 @@
 }
 
 @media (max-width: 435px) {
-    .TagContainer section.informations {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
     #additionalInformation p {
         margin-right: 20px;
         margin-left: 20px;

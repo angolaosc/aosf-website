@@ -3,7 +3,7 @@ interface PropsType{
   href: any
 }
 
-export function useScrollPage({ event, href }: PropsType) {
+export function UseScrollPage({ event, href }: PropsType) {
   event.preventDefault();
   const section = document.querySelector(href);
 

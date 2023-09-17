@@ -8,7 +8,7 @@ footer {
     justify-content: center;
 }
 
-footer section img {
+footer section img:nth-child(2) {
     width: 260px;
     height: 48px;
     object-fit: cover;
@@ -37,6 +37,14 @@ footer section p {
 footer strong {
     display: flex;
     gap: 15px;
+}
+
+footer span p {
+    font-size: 14px;
+}
+
+footer span p:nth-child(2) {
+    margin-top: 7px;
 }
 
 footer strong a.fb svg:hover {
@@ -68,8 +76,13 @@ footer strong a.telegram svg:hover {
         padding-right: 40px;
     }
 
+
     footer section {
         width: 100%;
+    }
+    
+    footer section strong  {
+        margin-left: 40px;
     }
 
     footer section img {
@@ -81,10 +94,20 @@ footer strong a.telegram svg:hover {
     }
 }
 
+footer section span p small {
+    font-size: 14.5px;
+    color: #999;
+}
+
+@media (max-width: 774px) {
+    footer section span p {
+        font-size: 12px;
+    }
+}
+
 @media (max-width: 499px) {
     footer section {
         display: flex;
-        flex-direction: column;
         align-items: start;
     }
 
@@ -108,5 +131,13 @@ footer strong a.telegram svg:hover {
 
     footer strong {
         padding-right: 20px;
+    }
+}
+
+@media (max-width: 811px) {
+    footer section {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
     }
 }

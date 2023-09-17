@@ -1,7 +1,6 @@
 import "./style.css"
-import communityLogo from "../../../assets/logoFooter.png"
-import Image from "next/image"
 import { FaLinkedin, FaFacebookF, FaDiscord, FaYoutube, FaTelegramPlane } from "react-icons/fa"
+import AngolaOpenSourceCommunityLogo from "../community_open_source_angola_logo/logo";
 
 interface PropsType {
     id: string;
@@ -9,11 +8,14 @@ interface PropsType {
 
 export default function Footer({ id }: PropsType) {
     return (
-        <footer id={id}>
+        <>
+            <footer id={id}>
             <section>
                 <span>
-                    <Image src={communityLogo} alt="Community Logo" />
-                    <p>Contacto: +244 956 234 178 +244 956 234 178</p>
+                    <AngolaOpenSourceCommunityLogo />
+                    <p><small>Contacto:</small> +244 936 853 728 +244 935 401 862</p>
+                    <p><small>Email:</small> info@aosc.social</p>
+
                 </span>
 
                 <strong>
@@ -36,5 +38,6 @@ export default function Footer({ id }: PropsType) {
                 </strong>
             </section>
         </footer>
+        </>
     );
 }
