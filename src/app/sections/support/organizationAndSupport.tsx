@@ -26,7 +26,7 @@ export default function Support({ id }: PropsType) {
 
         <ul>
           <strong>Silver</strong>
-          <li>
+          <li id="sliverimg">
             {silverLogos.map(({ id, src, alt }) => (
               <Image key={id} src={src} alt={alt} />
             ))}
@@ -35,7 +35,7 @@ export default function Support({ id }: PropsType) {
 
         <ul>
           <strong>In-kind sponsors</strong>
-          <li>
+          <li id="inGit">
             {inKindSponsors.map(({ id, src, alt }) => (
               <Image key={id} src={src} alt={alt} />
             ))}

@@ -1,9 +1,23 @@
 .organizationAndSupport {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     width: 1216px;
     margin-bottom: 188px;
     margin-top: 100px;
+}
+
+@media (max-width: 1363px)  {
+    .organizationAndSupport {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1063px)  {
+    .organizationAndSupport {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .organizationAndSupport ul {
@@ -30,11 +44,24 @@
 .organizationAndSupport ul li {
     display: flex;
     gap: 23px;
+    margin-top: -10px;
 }
 
 .organizationAndSupport ul li img {
-    height: 30px;
+    height: 28px;
+    width: 150px;
 }
+
+.organizationAndSupport ul li#sliverimg img {
+    height: 60px;
+    width: 120px;
+}
+
+.organizationAndSupport ul li#inGit img {
+    height: 35px;
+    width: 100px;
+}
+    
 
 @media(max-width: 1483px) {
     .organizationAndSupport ul {
