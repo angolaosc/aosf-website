@@ -3,16 +3,20 @@ import communityLogo from "../../../assets/logoFooter.png"
 import Image from "next/image"
 import { FaLinkedin, FaFacebookF, FaDiscord, FaYoutube, FaTelegramPlane } from "react-icons/fa"
 
-export default function Footer() {
+interface PropsType {
+    id: string;
+}
+
+export default function Footer({ id }: PropsType) {
     return (
-        <footer>
+        <footer id={id}>
             <section>
                 <span>
                     <Image src={communityLogo} alt="Community Logo" />
                     <p>Contacto: +244 956 234 178 +244 956 234 178</p>
                 </span>
 
-               <strong>
+                <strong>
                     <a className="fb" id="socialMedia" href="https://web.facebook.com/aoscangola">
                         <FaFacebookF />
                     </a>
@@ -29,8 +33,8 @@ export default function Footer() {
                     <a className="telegram" id="socialMedia" href="https://t.me/angolasc">
                         <FaTelegramPlane />
                     </a>
-               </strong>
+                </strong>
             </section>
         </footer>
-    )
+    );
 }

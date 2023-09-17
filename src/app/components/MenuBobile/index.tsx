@@ -1,33 +1,45 @@
+"use client";
+import { useState } from "react";
+import "./style.css";
 
-"use client"
-import { useState } from "react"
-import "./style.css"
-
-import { HiMenuAlt3 } from "react-icons/hi"
+import { HiMenuAlt3 } from "react-icons/hi";
+import { useScrollPage } from "@/app/hooks/useScrollPage";
+import { menu } from "@/utilities/data";
 
 export default function MenuMobile() {
-    const [isTrue, setIsTrue] = useState(false);
+  const [openMenuMobile, setOpenMenuMobile] = useState(false);
 
-    return (
-        <>
-            <header>
-                <button id="openMenuButton" onClick={() => setIsTrue(!isTrue)}>
-                    <HiMenuAlt3 />
-                </button>
+  const scrollThePage = (event: any, href: any) => {
+    useScrollPage({ event, href });
+    setOpenMenuMobile((prev) => !prev);
+  };
 
-                {
-                    isTrue ? (
-                        <section id="menu">
-                            <ul className="textMenuMobile">
-                                <span onClick={() => setIsTrue(false)}>Evento</span>
-                                <span onClick={() => setIsTrue(false)}>Agenda</span>
-                                <span onClick={() => setIsTrue(false)}>Informações</span>
-                                <span onClick={() => setIsTrue(false)}>Parceiro</span>
-                                <span onClick={() => setIsTrue(false)}>Contacto</span>
-                            </ul>
-                        </section>) : (<section></section>)
-                }
-            </header>
-        </>
-    )
+  return (
+    <>
+      <header>
+        <button
+          id="openMenuButton"
+          onClick={() => setOpenMenuMobile(!openMenuMobile)}
+        >
+          <HiMenuAlt3 />
+        </button>
+
+        {openMenuMobile && (
+          <section id="menu">
+            <ul className="textMenuMobile">
+              {menu.map(({ id, title, target }) => (
+                <a
+                  href={target}
+                  onClick={(e) => scrollThePage(e, target)}
+                  key={id}
+                >
+                  {title}
+                </a>
+              ))}
+            </ul>
+          </section>
+        )}
+      </header>
+    </>
+  );
 }

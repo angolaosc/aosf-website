@@ -22,7 +22,7 @@ nav {
     gap: 20px;
 }
 
-li {
+a {
     color: #fff;
     font-size: 14px;
     line-height: normlil;
@@ -30,7 +30,7 @@ li {
     cursor: pointer;
 }
 
-li:hover {
+a:hover {
     background: var(--vf, linear-gradient(95deg, #FE2A2A 12.25%, #F7931E 108.64%));
     background-clip: text;
     -webkit-background-clip: text;
