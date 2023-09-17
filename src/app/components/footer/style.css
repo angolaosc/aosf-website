@@ -22,8 +22,9 @@ footer section {
 }
 
 footer section a svg {
-    font-size: 20px;
+    font-size: 22px;
     color: white;
+    transition: color 0.3s ease;
 }
 
 footer section p {
@@ -35,7 +36,27 @@ footer section p {
 
 footer strong {
     display: flex;
-    gap: 15px;;
+    gap: 15px;
+}
+
+footer strong a.fb svg:hover {
+    color: #1195f5;
+}
+
+footer strong a.linkedin svg:hover {
+    color: #0b68c6;
+}
+
+footer strong a.discord svg:hover {
+    color: #444ca9;
+}
+
+footer strong a.youtube svg:hover {
+    color: #fc0101;
+}
+
+footer strong a.telegram svg:hover {
+    color: #7162b8;
 }
 
 @media (max-width: 720px) {
@@ -68,7 +89,7 @@ footer strong {
     }
 
     footer section strong  {
-        margin-left: 50px;
+        margin-left: 40px;
     }
 }
 

@@ -19,9 +19,11 @@ export default function EventCalendar() {
                 </article>
 
                 <section id="sectionCalendar">
-                    <section>
-                        <Image src={calendar} alt="" />
-                        <p>19 e 20 de Setembro | 2023 <br /> <strong>Terça e Quarta-Feira</strong></p>
+                    <section className="calendarInformation">
+                        
+                            <Image src={calendar} alt="" />
+                            <p>19 e 20 de Outubro | 2023 <br /> <strong>Terça e Quarta-Feira</strong></p>
+                        
                     </section>
 
                     <section>

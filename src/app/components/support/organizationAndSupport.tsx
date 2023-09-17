@@ -3,6 +3,7 @@ import microsoftLogo from "../../../assets/organization/MicrosoftLogo.svg"
 import airbnbLogo from "../../../assets/organization/AirbnbLogo.svg"
 import soundCloud from "../../../assets/organization/soundCloud.svg"
 import deezer from "../../../assets/organization/deezer.svg"
+import designLiquido_2 from "../../../assets/DesignLiquido_2.png"
 import "./style.css"
 import Image from "next/image"
 
@@ -13,27 +14,16 @@ export default function Support() {
                 <ul>
                     <strong>Platinum</strong>
                     <li>
-
-                        <Image src={fedexLogo} alt="FedexLogo" />
-                        <Image src={soundCloud} alt="SoundCloud" />
-                        <Image src={deezer} alt="Deezer" />
-                        <Image src={airbnbLogo} alt="AirbnbLogo" />
-                        <Image src={microsoftLogo} alt="MicrosoftLogo" />
                         <Image src={fedexLogo} alt="FedexLogo" />
                         <Image src={deezer} alt="Deezer" />
-
+                        <Image src={fedexLogo} alt="FedexLogo" />
                     </li>
                 </ul>
 
                 <ul>
                     <strong>Silver</strong>
                     <li>
-                        <Image src={airbnbLogo} alt="AirbnbLogo" />
                         <Image src={microsoftLogo} alt="MicrosoftLogo" />
-
-                        <Image src={soundCloud} alt="SoundCloud" />
-                        <Image src={deezer} alt="Deezer" />
-
                     </li>
                 </ul>
 
@@ -42,7 +32,6 @@ export default function Support() {
                     <li>
                         <Image src={fedexLogo} alt="FedexLogo" />
                         <Image src={soundCloud} alt="SoundCloud" />
-                        <Image src={deezer} alt="Deezer" />
                     </li>
                 </ul>
 
@@ -50,11 +39,7 @@ export default function Support() {
                     <strong>Community</strong>
                     <li>
                         <Image src={airbnbLogo} alt="AirbnbLogo" />
-                        <Image src={microsoftLogo} alt="MicrosoftLogo" />
-                        <Image src={fedexLogo} alt="FedexLogo" />
-                        <Image src={soundCloud} alt="SoundCloud" />
-                        <Image src={deezer} alt="Deezer" />
-
+                        <Image id="designLiquido_2" src={designLiquido_2} alt="designLiquido_2" />
                     </li>
                 </ul>
             </section>
