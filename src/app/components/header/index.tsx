@@ -22,9 +22,9 @@ export default function Header() {
 
           <MenuMobile />
           <nav>
-            {menu.map(({ id, title, target }) => (
+            {menu.map(({ id, title, target}) => (
               <a
-                href={target}
+                href=  {target}
                 onClick={(e) => scrollThePage(e, target)}
                 key={id}
               >

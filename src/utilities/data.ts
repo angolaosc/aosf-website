@@ -10,45 +10,61 @@ export const menu: PropsTypeMenu[] = [
   {
     id: 1,
     title: "Evento",
-    target: "#event", // ID do componente alvo
+    target: "#event", // ID do componente alvo,
+    url: "",
   },
   {
     id: 2,
     title: "Agenda",
     target: "#schedule", // ID do componente alvo
+    url: "",
   },
   {
     id: 3,
     title: "Informações",
     target: "#information", // ID do componente alvo
+    url: "",
   },
   {
     id: 4,
     title: "Patrocinadores",
     target: "#partner", // ID do componente alvo
+    url: "",
   },
   {
     id: 5,
     title: "Contacto",
     target: "#contact", // ID do componente alvo
+    url: "",
   },
+  {
+    id: 6,
+    title: "Hacktoberfest",
+    target: "",
+    url: "https://hacktoberfest.com/",
+  }
 ];
 
 export const informations: PropsTypeInformation[] =  [
   {
     id: 0,
-    title: "Titulo relevante",
-    description: "A primeira Festa do Software Livre da Moita decorreu nas instalações da extinta Universidade Independente, no Palheirão, em 2004, co-organizada pela Humaneasy Consulting e pela ANSOL – Associação Nacional para o Software Livre, e contou com o apoio do Município da Moita, da Universidade Independente e de várias entidades e comunidades ligadas ao Software Livre."
+    title: "Comunicação",
+    description: "Toda comunicação e últimas notificações sobre o evento serão anunciadas no nosso servidor do discord e nas nossas redes sociais. Por favor, use estes canais para qualquer informação."
   },
   {
     id: 1,
-    title: "Titulo relevante",
-    description: "A primeira Festa do Software Livre da Moita decorreu nas instalações da extinta Universidade Independente, no Palheirão, em 2004, co-organizada pela Humaneasy Consulting e pela ANSOL – Associação Nacional para o Software Livre, e contou com o apoio do Município da Moita, da Universidade Independente e de várias entidades e comunidades ligadas ao Software Livre."
+    title: "Formato do evento",
+    description: "A primeira edição do AOSFest 2023 acontecerá online e em 4 dias. Porém, teremos um Hackathon que será organizado pessoalmente. Por favor, note que mera participação no AOSFest não é um passo directo para participar no hackathon. As inscrições para o Hackathon e para o AOSFest são feitas separadamente. Por favor, consulte a agenda do evento."
   },
   {
     id: 2,
-    title: "Titulo relevante",
-    description: "A primeira Festa do Software Livre da Moita decorreu nas instalações da extinta Universidade Independente, no Palheirão, em 2004, co-organizada pela Humaneasy Consulting e pela ANSOL – Associação Nacional para o Software Livre, e contou com o apoio do Município da Moita, da Universidade Independente e de várias entidades e comunidades ligadas ao Software Livre."
+    title: "O que é um Open-source hackathon?",
+    description: "Um open-source hackathon é uma forma empolgante e produtiva de reunir desenvolvedores, designers e entusiastas de código aberto para trabalhar juntos na criação e aprimoramento de software de código aberto em um ambiente de colaboração e competição amigável. É uma maneira eficaz de contribuir para projetos de código aberto e aprender com outros profissionais da área."
+  },
+  {
+    id: 3,
+    title: "O que é o hacktoberfest?",
+    description: "O Hacktoberfest é um evento anual de desenvolvimento de software de código aberto patrocinado pela DigitalOcean, GitHub e outras empresas, que incentiva programadores de todo o mundo a contribuir para projetos de código aberto durante o mês de outubro. Os participantes podem ganhar camisetas e outros brindes ao enviar um número mínimo de solicitações de pull requests (PRs) válidas em repositórios públicos hospedados no GitHub, promovendo assim a colaboração na comunidade de código aberto e o desenvolvimento de habilidades de programação."
   }
 ]
 

@@ -26,8 +26,7 @@ export default function Informations({ id }: PropsType) {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 1 }}
         >
-          Algumas informações relativas a Angola Open-source Fest Edição
-          Hacktoberfest
+          Algumas informações relativas a Angola Open-source Fest: Hacktoberfest Edition
         </motion.p>
       </motion.section>
 
