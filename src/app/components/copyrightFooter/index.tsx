@@ -48,7 +48,7 @@ export default function CopyrightFooter() {
                         </li>
                     </ul>
 
-                    <p>© 2023 Angola Open-Source Community.<br />Todos os direitos reservados. Licenciado sob [Nome da Licença, por exemplo, Licença MIT].<br /><a href="https://github.com/angolaosc/aosf-website">Link do repositório</a></p>
+                    <p>© 2023 Angola Open-Source Community.<br />Todos os direitos reservados. Licenciado sob <a href="https://github.com/angolaosc/aosf-website/blob/main/LICENSE">Licença Apache-2.0.</a><br /><a href="https://github.com/angolaosc/aosf-website">Código fonte</a></p>
                 </section>
             </section>
         </>

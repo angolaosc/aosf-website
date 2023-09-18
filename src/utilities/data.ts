@@ -44,12 +44,12 @@ export const menu: PropsTypeMenu[] = [
     target: "#contact", // ID do componente alvo
     url: "",
   },
-  {
+  /* {
     id: 6,
     title: "Hacktoberfest",
     target: "",
     url: "https://hacktoberfest.com/",
-  }
+  } */
 ];
 
 export const informations: PropsTypeInformation[] =  [
