@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   border: none;
@@ -27,4 +27,4 @@ body::-webkit-scrollbar-thumb {
   border: 1px solid rgba(254, 42, 42, 0.26);
   background: linear-gradient(134deg, rgba(4, 158, 168, 0.06) 1.22%, rgba(70, 37, 141, 0.00) 100%);
 
-}
+} */

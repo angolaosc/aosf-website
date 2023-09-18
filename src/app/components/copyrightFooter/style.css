@@ -44,7 +44,8 @@
 }
 
 #copyrightFooterInformation li div a {
-    font-size: 11.5px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 #copyrightFooterInformation li div a#yout {

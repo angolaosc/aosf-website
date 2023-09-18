@@ -11,7 +11,7 @@ interface PropsType {
 
 export default function Informations({ id }: PropsType) {
   return (
-    <section className="TagContainer" id={id}>
+    <section className="main__container" id={id}>
       <motion.section
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
