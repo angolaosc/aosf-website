@@ -14,7 +14,7 @@ interface PropsType {
 
 export default function EventCalendar({ id }: PropsType) {
   return (
-    <section className="fullContainer" id={id}>
+    <section className="main__container" id={id}>
       <section id="container">
         <article>
           <motion.div

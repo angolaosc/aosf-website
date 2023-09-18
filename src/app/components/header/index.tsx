@@ -1,13 +1,9 @@
 "use client";
-import React from "react";
-import Image from "next/image";
-import "./style.css";
-import communityText from "../../../assets/comunityLogoText.png";
-import CommunityIcon from "../../../assets/logo@4x.png";
 import MenuMobile from "../MenuBobile";
 import { UseScrollPage } from "@/app/hooks/useScrollPage";
-import { communityLogos, menu } from "@/utilities/data";
-import AngolaOpenSourceCommunityLogo from "../community_open_source_angola_logo/logo";
+import { menu } from "@/utilities/data";
+import Logo from "../logo";
+import { Wrapper } from "./style";
 
 export default function Header() {
   const scrollThePage = (event: any, href: any) => {
@@ -16,15 +12,16 @@ export default function Header() {
 
   return (
     <>
-      <header className="header">
-        <div className="headerContainer">
-          <AngolaOpenSourceCommunityLogo />
-
+      <Wrapper>
+        <div className="main__container">
+          <div className="logo">
+            <Logo />
+          </div>
           <MenuMobile />
           <nav>
-            {menu.map(({ id, title, target}) => (
+            {menu.map(({ id, title, target }) => (
               <a
-                href=  {target}
+                href={target}
                 onClick={(e) => scrollThePage(e, target)}
                 key={id}
               >
@@ -33,7 +30,7 @@ export default function Header() {
             ))}
           </nav>
         </div>
-      </header>
+      </Wrapper>
     </>
   );
 }

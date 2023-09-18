@@ -1,10 +1,9 @@
 "use client";
 import { useState } from "react";
-import "./style.css";
-
 import { HiMenuAlt3 } from "react-icons/hi";
 import { UseScrollPage } from "@/app/hooks/useScrollPage";
 import { menu } from "@/utilities/data";
+import { Wrapper } from "./style";
 
 export default function MenuMobile() {
   const [openMenuMobile, setOpenMenuMobile] = useState(false);
@@ -16,30 +15,28 @@ export default function MenuMobile() {
 
   return (
     <>
-      <header>
+      <Wrapper>
         <button
-          id="openMenuButton"
+          className="open__Menu"
           onClick={() => setOpenMenuMobile(!openMenuMobile)}
         >
           <HiMenuAlt3 />
         </button>
 
         {openMenuMobile && (
-          <section id="menu">
-            <ul className="textMenuMobile">
-              {menu.map(({ id, title, target }) => (
-                <a
-                  href={target}
-                  onClick={(e) => scrollThePage(e, target)}
-                  key={id}
-                >
-                  {title}
-                </a>
-              ))}
-            </ul>
-          </section>
+          <div className="menu__mobile">
+            {menu.map(({ id, title, target }) => (
+              <a
+                href={target}
+                onClick={(e) => scrollThePage(e, target)}
+                key={id}
+              >
+                {title}
+              </a>
+            ))}
+          </div>
         )}
-      </header>
+      </Wrapper>
     </>
   );
 }

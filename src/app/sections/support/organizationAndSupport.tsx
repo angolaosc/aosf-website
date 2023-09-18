@@ -15,41 +15,45 @@ export default function Support({ id }: PropsType) {
   return (
     <>
       <section className="organizationAndSupport" id={id}>
-        <ul>
-          <strong>Platinum</strong>
-          <li>
-            {platinumLogos.map(({ id, src, alt }) => (
-              <Image key={id} src={src} alt={alt} />
-            ))}
-          </li>
-        </ul>
+        <div className="partners">
+          <ul>
+            <strong>Platinum</strong>
+            <li>
+              {platinumLogos.map(({ id, src, alt }) => (
+                <Image key={id} src={src} alt={alt} />
+              ))}
+            </li>
+          </ul>
 
-        <ul>
-          <strong>Silver</strong>
-          <li id="sliverimg">
-            {silverLogos.map(({ id, src, alt }) => (
-              <Image key={id} src={src} alt={alt} />
-            ))}
-          </li>
-        </ul>
+          <ul>
+            <strong>Silver</strong>
+            <li id="sliverimg">
+              {silverLogos.map(({ id, src, alt }) => (
+                <Image key={id} src={src} alt={alt} />
+              ))}
+            </li>
+          </ul>
 
-        <ul>
-          <strong>In-kind sponsors</strong>
-          <li id="inGit">
-            {inKindSponsors.map(({ id, src, alt }) => (
-              <Image key={id} src={src} alt={alt} />
-            ))}
-          </li>
-        </ul>
+          <ul>
+            <strong>In-kind sponsors</strong>
+            <li id="inGit">
+              {inKindSponsors.map(({ id, src, alt }) => (
+                <Image key={id} src={src} alt={alt} />
+              ))}
+            </li>
+          </ul>
+        </div>
 
-        <ul>
-          <strong>Community</strong>
-          <li>
-            {communityLogos.map(({ id, src, alt }) => (
-              <Image key={id} src={src} alt={alt} />
-            ))}
-          </li>
-        </ul>
+        <div className="comunity">
+          <ul>
+            <strong>Community</strong>
+            <li>
+              {communityLogos.map(({ id, src, alt }) => (
+                <Image key={id} src={src} alt={alt} />
+              ))}
+            </li>
+          </ul>
+        </div>
       </section>
     </>
   );
