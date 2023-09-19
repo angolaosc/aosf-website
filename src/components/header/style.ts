@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.header`
     background: #0E0B14;
     position: fixed;
-    z-index: 10;
+    z-index: 12;
     width: 100%;
     top: 0;
     .main__container{
