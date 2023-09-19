@@ -4,7 +4,7 @@ import {
   FaDiscord,
   FaYoutube,
   FaTelegramPlane,
-} from "react-Icons/fa";
+} from "react-icons/fa";
 import { PropsTypeLogo, PropsTypeInformation, PropsTypeMenu } from "@/interfaces";
 
 import ChaossAfricaLogo from "@/assets/chaoss-white-2.png";
@@ -139,14 +139,14 @@ export const CONTRIBUTORS = [
     id: 0,
     name: "Pedro Franco",
     Avatar: PedroFracnoImg,
-    specialty: "Software Developer",
+    speciality: "Software Developer",
     href: "https://www.linkedin.com/in/pedro-franco-58a460217/",
   },
   {
     id: 1,
     name: "Walt De Jesus",
     Avatar: WaltDeJesusImg,
-    specialty: "UX/UI Designer",
+    speciality: "UX/UI Designer",
     href: "https://www.linkedin.com/in/waltdejesus/",
     linkYoutube: "https://www.youtube.com/channel/UC3cB8IzGweoVyScJhhGjSJA",
   },
@@ -154,7 +154,7 @@ export const CONTRIBUTORS = [
     id: 2,
     name: "Mr aguinaldo",
     Avatar: MrAguinaldo,
-    specialty: "Software Developer",
+    speciality: "Software Developer",
     href: "https://www.linkedin.com/in/mr-aguinaldo-3a076728a/?trk=contact-info",
   },
 ];

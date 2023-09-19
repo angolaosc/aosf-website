@@ -14,7 +14,7 @@ export const Wrapper = styled(motion.button)`
   justify-content: center;
   align-items: center;
   border: 1px solid #fff;
-  transition: 0.2s linear;
+  transition: 0.3s linear;
   box-shadow: 0px 15px 25px 0px rgba(92, 199, 255, 0.04);
   &.hackathon{
     background-color: transparent;

@@ -9,12 +9,12 @@ export default function CopyrightFooter() {
       <div className="main__container">
         <div className="contributors">
           {CONTRIBUTORS.map(
-            ({ id, name, Avatar, specialty, href, linkYoutube }) => (
+            ({ id, name, Avatar, speciality, href, linkYoutube }) => (
               <Contributor
                 key={id}
                 name={name}
                 src={Avatar}
-                specialty={specialty}
+                speciality={speciality}
                 href={href}
                 linkYoutube={linkYoutube}
               />
