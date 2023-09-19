@@ -57,7 +57,7 @@ export const Wrapper = styled.section<PropsType>`
         align-items: center;
         gap: 32px;
         .chaoss{
-          height: 30px;
+          height: 37px;
           width: 160px;
         }
       }

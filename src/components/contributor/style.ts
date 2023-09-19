@@ -8,6 +8,9 @@ export const Wrapper = styled.div`
   &:hover {
     filter: brightness(0.8);
   }
+  img {
+    object-fit: cover;
+  }
   a {
     text-decoration: none;
     border-radius: 6px;
