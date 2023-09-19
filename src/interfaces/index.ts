@@ -1,3 +1,6 @@
+import { StaticImageData } from "next/image";
+
+
 export interface PropsTypeInformation{
   id: number,
   title: string,
@@ -8,6 +11,8 @@ export interface PropsTypeLogo{
   id: number,
   src: any,
   alt: string
+  className?: string
+  title: string
 }
 
 export interface PropsTypeMenu{
@@ -15,4 +20,12 @@ export interface PropsTypeMenu{
   title: string,
   target: string,
   url: string
+}
+
+export interface PropsTypeContributor {
+  name: string;
+  linkYoutube?: string;
+  src: StaticImageData;
+  href: string;
+  speciality: string;
 }

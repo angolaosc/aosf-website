@@ -1,7 +1,8 @@
 "use client";
-import Header from "./components/header";
 import { Inter } from "next/font/google";
 import { GlobalStyle } from "@/styles";
+import Header from "@/components/header";
+import StyledComponentsRegistry from "./registry";
 
 const inter = Inter({ subsets: ["latin"], weight: "500", style: "normal" });
 
@@ -26,8 +27,10 @@ export default function RootLayout({
       <GlobalStyle />
       <html lang="en">
         <body>
-          <Header />
-          {children}
+          <StyledComponentsRegistry>
+            <Header />
+            {children}
+          </StyledComponentsRegistry>
         </body>
       </html>
     </>

@@ -1,8 +1,10 @@
-import fedexLogo from "@/assets/organization/FedExWhiteLogo.svg";
-import microsoftLogo from "@/assets/organization/MicrosoftLogo.svg";
-import airbnbLogo from "@/assets/organization/AirbnbLogo.svg";
-import soundCloud from "@/assets/organization/soundCloud.svg";
-import deezer from "@/assets/organization/deezer.svg";
+import {
+  FaLinkedin,
+  FaFacebookF,
+  FaDiscord,
+  FaYoutube,
+  FaTelegramPlane,
+} from "react-icons/fa";
 import { PropsTypeLogo, PropsTypeInformation, PropsTypeMenu } from "@/interfaces";
 
 import ChaossAfricaLogo from "@/assets/chaoss-white-2.png";
@@ -11,6 +13,10 @@ import GitHub_Logo_White from "@/assets/In-kind/GitHub_Logo_White.png"
 
 import DL_logo_2018_color from "@/assets/Community/DL_logo_2018_color.png"
 import MozdevzLogo from "@/assets/Community/Mozdevz logo - White.png"
+
+import PedroFracnoImg from "@/assets/PedroFranco.jpg";
+import WaltDeJesusImg from "@/assets/walt.jpg";
+import MrAguinaldo from "@/assets/Mr_Aguinaldo.jpg";
 
 
 export const menu: PropsTypeMenu[] = [
@@ -77,19 +83,94 @@ export const informations: PropsTypeInformation[] =  [
 
 
 
-export const platinumLogos: PropsTypeLogo[] = [
-  { id: 0, src: ChaossAfricaLogo, alt: "ChaossAfricaLogo" },
-];
+export const sponsors: PropsTypeLogo[] = [
+  { id: 0, title: 'Platinum', src: ChaossAfricaLogo, alt: "ChaossAfricaLogo", },
+  { id: 1, title: 'Silver', src: Culysoft, alt: "Culysoft", className: 'silver' },
+  { id: 2, title: 'in-kind sponsores', src: GitHub_Logo_White, alt: "GitHub_Logo_White", className: 'in__kind__sponsors' },
+]
 
-export const silverLogos: PropsTypeLogo[] = [
-  { id: 0, src: Culysoft, alt: "Culysoft" },
-];
-
-export const inKindSponsors: PropsTypeLogo[] = [
-  { id: 0, src: GitHub_Logo_White, alt: "GitHub_Logo_White" },
-];
-
-export const communityLogos: PropsTypeLogo[] = [
+export const communityLogos = [
   { id: 3, src: DL_logo_2018_color, alt: "DL_logo_2018_color" },
   { id: 1, src: MozdevzLogo, alt: "MozdevzLogo" },
+];
+
+
+export const CONTACTS = [
+  { id: 0, title: "Contacto", phone: "+244 936 853 728 +244 935 401 862" },
+  { id: 1, title: "Email", phone: "info@aosc.social" },
+];
+
+export const SOCIALMEDIA = [
+  {
+    id: 0,
+    Icon: FaFacebookF,
+    className: "facebook",
+    href: "https://web.facebook.com/aoscangola",
+  },
+  {
+    id: 1,
+    Icon: FaLinkedin,
+    className: "linkedin",
+    href: "https://www.linkedin.com/company/angola-open-source-community/",
+  },
+  {
+    id: 2,
+    Icon: FaDiscord,
+    className: "discord",
+    href: "https://discord.com/invite/tuUDNdRzvz",
+  },
+  {
+    id: 3,
+    Icon: FaYoutube,
+    className: "youtube",
+    href: "https://www.youtube.com/@angolaosc",
+  },
+  {
+    id: 4,
+    Icon: FaTelegramPlane,
+    className: "telegram",
+    href: "https://t.me/angolasc",
+  },
+];
+
+
+export const CONTRIBUTORS = [
+  {
+    id: 0,
+    name: "Pedro Franco",
+    Avatar: PedroFracnoImg,
+    speciality: "Software Developer",
+    href: "https://www.linkedin.com/in/pedro-franco-58a460217/",
+  },
+  {
+    id: 1,
+    name: "Walt De Jesus",
+    Avatar: WaltDeJesusImg,
+    speciality: "UX/UI Designer",
+    href: "https://www.linkedin.com/in/waltdejesus/",
+    linkYoutube: "https://www.youtube.com/channel/UC3cB8IzGweoVyScJhhGjSJA",
+  },
+  {
+    id: 2,
+    name: "Mr aguinaldo",
+    Avatar: MrAguinaldo,
+    speciality: "Software Developer",
+    href: "https://www.linkedin.com/in/mr-aguinaldo-3a076728a/?trk=contact-info",
+  },
+];
+
+
+
+export const BUTTONS = [
+  {
+    id: 0,
+    content: "Inscrever-se para o evento",
+    url: "https://events.mlh.io/events/10184-angola-open-source-fest-hacktoberfest-edition",
+  },
+  {
+    id: 1,
+    content: "Inscrever-se para o Hackathon",
+    url: "https://unstop.com/o/nRNxQZ4?lb=t91qM2wi",
+    className: 'hackathon'
+  },
 ];

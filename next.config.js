@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const path = require('path')
+
+const nextConfig = {
+  compiler: {
+    reactStrictMode: true,
+    styledComponents: true,
+  },
+}
 
 module.exports = nextConfig
