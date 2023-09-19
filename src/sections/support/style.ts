@@ -1,6 +1,24 @@
 import styled from "styled-components";
 
 
+export const Wrapper = styled.section`
+  margin: 224px 0;
+  .main__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  @media (max-width: 546px) {
+    .main__container {
+      align-items: flex-start;
+      gap: 32px;
+    }
+  }
+`;
+
 export const StylePartners = styled.div`
   display: flex;
   justify-content: space-between;
