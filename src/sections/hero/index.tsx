@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import CHAOSS_AFRICA_LOGO_opt from "@/assets/chaoss-white-2.png";
+import CHAOSS_AFRICA_LOGO_opt from "@/assets/Platinum/chaossLogo.svg";
 import { motion } from "framer-motion";
 import Logo from "@/components/logo";
 import { Wrapper } from "./style";

@@ -7,12 +7,15 @@ import {
 } from "react-icons/fa";
 import { PropsTypeLogo, PropsTypeInformation, PropsTypeMenu } from "@/interfaces";
 
-import ChaossAfricaLogo from "@/assets/chaoss-white-2.png";
+import ChaossAfricaLogo from "@/assets/Platinum/chaossLogo.svg";
 import Culysoft from "@/assets/Silver/culysoft.png"
 import GitHub_Logo_White from "@/assets/In-kind/GitHub_Logo_White.png"
 
 import DL_logo_2018_color from "@/assets/Community/DL_logo_2018_color.png"
 import MozdevzLogo from "@/assets/Community/Mozdevz logo - White.png"
+import logoWTM from "@/assets/Community/logoWTM.png"
+import CDALogo from "@/assets/Community/CDA.jpg"
+import CDA_Girls from "@/assets/Community/CDA_Girls-removebg-preview.png"
 
 import PedroFracnoImg from "@/assets/PedroFranco.jpg";
 import WaltDeJesusImg from "@/assets/walt.jpg";
@@ -84,7 +87,7 @@ export const informations: PropsTypeInformation[] =  [
 
 
 export const sponsors: PropsTypeLogo[] = [
-  { id: 0, title: 'Platinum', src: ChaossAfricaLogo, alt: "ChaossAfricaLogo", },
+  { id: 0, title: 'Platinum', src: ChaossAfricaLogo, alt: "ChaossAfricaLogo", className: "ChaossAfricaLogo"},
   { id: 1, title: 'Silver', src: Culysoft, alt: "Culysoft", className: 'silver' },
   { id: 2, title: 'in-kind sponsores', src: GitHub_Logo_White, alt: "GitHub_Logo_White", className: 'in__kind__sponsors' },
 ]
@@ -92,6 +95,10 @@ export const sponsors: PropsTypeLogo[] = [
 export const communityLogos = [
   { id: 3, src: DL_logo_2018_color, alt: "DL_logo_2018_color" },
   { id: 1, src: MozdevzLogo, alt: "MozdevzLogo" },
+  {id: 4, src: logoWTM, alt: "logoWTM", className: "logoWTM"},
+  {id: 5, src: CDALogo, alt: "logoWTM", className: "CDAlogo"},
+  {id: 6, src: CDA_Girls, alt: "logoWTM", className: "CDA_Girls"}
+
 ];
 
 

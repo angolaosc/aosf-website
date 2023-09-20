@@ -26,6 +26,9 @@ export const StylePartners = styled.div`
   margin: 0 auto;
   max-width: 1000px;
   width: 100%;
+  img.ChaossAfricaLogo {
+    height: 40px;
+  }
   @media (max-width: 546px) {
     flex-direction: column;
   }
@@ -34,14 +37,36 @@ export const StylePartners = styled.div`
 export const StyleComunity = styled.div`
   display: flex;
   flex-direction: column;
+  text-align: center;
   gap: 14px;
   .logos {
     display: flex;
-    align-items: flex-start;
-    gap: 24px;
+    align-items: center;
+    gap: 35px;
   }
+
+  img.logoWTM {
+   object-fit: cover;
+   height: 85px;
+   width: 90px;
+  }
+
+  img.CDA_Girls {
+    objectize: cover;
+    height: 50px;
+    width: 300px;
+  }
+
+  img.CDAlogo {
+    objectize: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+
   h2 {
     font-size: 22px;
+    margin-bottom: 10px;
     background: var(
       --vf,
       linear-gradient(170deg, #fe2a2a 12.25%, #f7931e 108.64%)
@@ -56,11 +81,33 @@ export const StyleComunity = styled.div`
     width: 100%;
   }
 
+  @media (max-width: 416px) {
+    div.logos {
+      display: grid;
+        grid-template-columns: repeat(1, 1fr);
+     }
+  }
+
   @media (max-width: 546px) {
     .logos {
       flex-direction: column;
       gap: 32px;
     }
+  }
+
+  @media (max-width: 836px) {
+    text-align: left;
+   .logos {
+    display: grid;
+      grid-template-columns: repeat(3, 1fr);
+   }
+  }
+
+  @media (max-width: 546px) {
+    .logos {
+      display: grid;
+        grid-template-columns: repeat(2, 1fr);
+     }
   }
 `;
 
