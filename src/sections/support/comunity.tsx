@@ -8,8 +8,10 @@ export function Comunity() {
     <StyleComunity>
       <h2>Comunity</h2>
       <div className="logos">
-        {communityLogos.map(({ id, src, alt, className }) => (
-          <Image key={id} src={src} alt={alt} className={className} />
+        {communityLogos.map(({ id, src, alt, className, href}) => (
+          <a key={id} href={href}>
+            <Image src={src} alt={alt} className={className} />
+          </a>
         ))}
       </div>
     </StyleComunity>

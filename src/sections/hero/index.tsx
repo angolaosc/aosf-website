@@ -73,11 +73,14 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 3.2 }}
           >
             <Logo />
-            <Image
-              src={CHAOSS_AFRICA_LOGO_opt}
-              alt="CHAOSS_AFRICA"
-              className="chaoss"
-            />
+            <a href="https://twitter.com/chaoss_africa">
+              <Image
+                src={CHAOSS_AFRICA_LOGO_opt}
+                alt="CHAOSS_AFRICA"
+                className="chaoss"
+              />
+            </a>
+
           </motion.div>
         </div>
       </div>

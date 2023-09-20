@@ -13,9 +13,9 @@ export default function Logo() {
   return (
     <Wrapper>
       {IMAGES.map(({ id, src, alt, width, height }) => (
-        <div key={id}>
+        <a href="https://aosc.social/" key={id}>
           <Image src={src} alt={alt} width={width} height={height} />
-        </div>
+        </a>
       ))}
     </Wrapper>
   );
