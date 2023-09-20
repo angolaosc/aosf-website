@@ -89,7 +89,7 @@ export const informations: PropsTypeInformation[] =  [
 export const sponsors: PropsTypeLogo[] = [
   { id: 0, title: 'Platinum', src: ChaossAfricaLogo, alt: "ChaossAfricaLogo", className: "ChaossAfricaLogo"},
   { id: 1, title: 'Silver', src: Culysoft, alt: "Culysoft", className: 'silver' },
-  { id: 2, title: 'in-kind sponsores', src: GitHub_Logo_White, alt: "GitHub_Logo_White", className: 'in__kind__sponsors' },
+  { id: 2, title: 'in-kind sponsors', src: GitHub_Logo_White, alt: "GitHub_Logo_White", className: 'in__kind__sponsors' },
 ]
 
 export const communityLogos = [
