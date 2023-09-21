@@ -7,11 +7,11 @@ import { StylePartners } from "./style";
 export function Partners() {
   return (
     <StylePartners>
-      {sponsors.map(({ id, src, alt, title, className }) => (
+      {sponsors.map(({ id, src, alt, title, className, href}) => (
         <Company
           key={id}
           title={title}
-          logo={<Image src={src} alt={alt} className={className} />}
+          logo={<a  href={href}><Image src={src} alt={alt} className={className} /></a>}
         />
       ))}
     </StylePartners>

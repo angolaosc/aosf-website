@@ -87,17 +87,17 @@ export const informations: PropsTypeInformation[] =  [
 
 
 export const sponsors: PropsTypeLogo[] = [
-  { id: 0, title: 'Platinum', src: ChaossAfricaLogo, alt: "ChaossAfricaLogo", className: "ChaossAfricaLogo"},
-  { id: 1, title: 'Silver', src: Culysoft, alt: "Culysoft", className: 'silver' },
-  { id: 2, title: 'in-kind sponsors', src: GitHub_Logo_White, alt: "GitHub_Logo_White", className: 'in__kind__sponsors' },
+  { id: 0, title: 'Platinum', src: ChaossAfricaLogo, alt: "ChaossAfricaLogo", className: "ChaossAfricaLogo", href: "https://twitter.com/chaoss_africa"},
+  { id: 1, title: 'Silver', src: Culysoft, alt: "Culysoft", className: 'silver', href: "https://culysoft.com/",},
+  { id: 2, title: 'in-kind sponsors', src: GitHub_Logo_White, alt: "GitHub_Logo_White", className: 'in__kind__sponsors', href: "https://github.com/"},
 ]
 
 export const communityLogos = [
-  { id: 3, src: DL_logo_2018_color, alt: "DL_logo_2018_color" },
-  { id: 1, src: MozdevzLogo, alt: "MozdevzLogo" },
-  {id: 4, src: logoWTM, alt: "logoWTM", className: "logoWTM"},
-  {id: 5, src: CDALogo, alt: "logoWTM", className: "CDAlogo"},
-  {id: 6, src: CDA_Girls, alt: "logoWTM", className: "CDA_Girls"}
+  { id: 3, src: DL_logo_2018_color, alt: "DL_logo_2018_color", href: "https://designliquido.com.br/"},
+  { id: 1, src: MozdevzLogo, alt: "MozdevzLogo", href: "https://www.mozdevz.org/"},
+  {id: 4, src: logoWTM, alt: "logoWTM", className: "logoWTM", href: "https://www.linkedin.com/company/wtm-luanda/"},
+  {id: 5, src: CDALogo, alt: "CDALogo", className: "CDAlogo", href: "https://www.facebook.com/communitydevangola?mibextid=b06tZ0"},
+  {id: 6, src: CDA_Girls, alt: "CDA_Girls", className: "CDA_Girls", href: "https://www.linkedin.com/company/cda-girls/"}
 
 ];
 

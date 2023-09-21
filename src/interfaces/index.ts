@@ -12,7 +12,8 @@ export interface PropsTypeLogo{
   src: any,
   alt: string
   className?: string
-  title: string
+  title: string,
+  href: string,
 }
 
 export interface PropsTypeMenu{
