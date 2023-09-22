@@ -5,7 +5,7 @@ import { menu } from "@/utilities/data";
 import { Wrapper } from "./style";
 import { UseScrollPage } from "@/hooks/useScrollPage";
 
-export default function MenuMobile() {
+export function MenuMobile() {
   const [openMenuMobile, setOpenMenuMobile] = useState(false);
 
   const scrollThePage = (event: any, href: any) => {

@@ -1,13 +1,13 @@
 "use client";
 import { CONTACTS, SOCIALMEDIA } from "@/utilities/data";
-import Logo from "../logo";
+import { Logo } from "..";
 import { Wrapper } from "./style";
 
 interface PropsType {
   id: string;
 }
 
-export default function Footer({ id }: PropsType) {
+export function Footer({ id }: PropsType) {
   return (
     <Wrapper id={id}>
       <div className="main__container">

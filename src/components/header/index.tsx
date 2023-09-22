@@ -1,11 +1,10 @@
 "use client";
-import MenuMobile from "../menuMobile/index";
+import { MenuMobile, Logo } from "..";
 import { menu } from "@/utilities/data";
-import Logo from "../logo/index";
 import { Wrapper } from "./style";
 import { UseScrollPage } from "@/hooks/useScrollPage";
 
-export default function Header() {
+export function Header() {
   const scrollThePage = (event: any, href: any) => {
     UseScrollPage({ event, href });
   };

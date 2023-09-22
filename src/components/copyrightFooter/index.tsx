@@ -1,9 +1,9 @@
 "use client";
 import { CONTRIBUTORS } from "@/utilities/data";
-import { Contributor } from "../contributor";
+import { Contributor } from "..";
 import { Wrapper } from "./style";
 
-export default function CopyrightFooter() {
+export function CopyrightFooter() {
   return (
     <Wrapper>
       <div className="main__container">
