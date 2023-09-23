@@ -18,7 +18,7 @@ export default function Hero() {
   return (
     <Wrapper image={backgroundImg}>
       <div className="menu__container">
-        <div id="">
+        <div id="listButtonAndTextArea">
           <div className="text__area">
             <motion.h1
               initial={{ opacity: 0 }}

@@ -17,6 +17,9 @@ import logoWTM from "@/assets/Community/logoWTM.png"
 import CDALogo from "@/assets/Community/CDA.jpg"
 import CDA_Girls from "@/assets/Community/CDA_Girls-removebg-preview.png"
 
+import AWS_User_group from "@/assets/Community/AWS_User_group.png"
+import CNCG_logo from "@/assets/Community/CNCG_Logo_Transparent-removebg-preview.png"
+
 import PedroFracnoImg from "@/assets/PedroFranco.jpg";
 import WaltDeJesusImg from "@/assets/walt.jpg";
 import MrAguinaldo from "@/assets/Mr_Aguinaldo.jpg";
@@ -93,12 +96,14 @@ export const sponsors: PropsTypeLogo[] = [
 ]
 
 export const communityLogos = [
-  { id: 3, src: DL_logo_2018_color, alt: "DL_logo_2018_color", href: "https://designliquido.com.br/"},
-  { id: 1, src: MozdevzLogo, alt: "MozdevzLogo", href: "https://www.mozdevz.org/"},
+  { id: 3, src: DL_logo_2018_color,  className: "DL_logo_2018_color", alt: "DL_logo_2018_color", href: "https://designliquido.com.br/"},
+  { id: 1, src: MozdevzLogo,  className: "MozdevzLogo", alt: "MozdevzLogo", href: "https://www.mozdevz.org/"},
   {id: 4, src: logoWTM, alt: "logoWTM", className: "logoWTM", href: "https://www.linkedin.com/company/wtm-luanda/"},
   {id: 5, src: CDALogo, alt: "CDALogo", className: "CDAlogo", href: "https://www.facebook.com/communitydevangola?mibextid=b06tZ0"},
-  {id: 6, src: CDA_Girls, alt: "CDA_Girls", className: "CDA_Girls", href: "https://www.linkedin.com/company/cda-girls/"}
+  {id: 6, src: CDA_Girls, alt: "CDA_Girls", className: "CDA_Girls", href: "https://www.linkedin.com/company/cda-girls/"},
 
+  {id: 7, src: AWS_User_group, alt: "AWS_User_group", className: "AWS_User_group", href: "https://www.linkedin.com/company/aws-user-group-angola/"},
+  {id: 8, src: CNCG_logo, alt: "CNCG_logo", className: "CNCG_logo", href: "https://community.cncf.io/cloud-native-luanda/"}
 ];
 
 
