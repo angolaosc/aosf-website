@@ -12,6 +12,10 @@ export const Wrapper = styled.section<PropsType>`
   background-position: center center;
   background-size: cover;
   padding: 200px 0;
+
+  div#listButtonAndTextArea {
+    margin: 0px 20px;
+  }
   
   .menu__container{
     display: flex;
@@ -51,6 +55,7 @@ export const Wrapper = styled.section<PropsType>`
       display: flex;
       align-items: center;
       flex-direction: column;
+      padding: 0px 20px;
       gap: 24px;
       .logos{
         display: flex;
@@ -68,7 +73,6 @@ export const Wrapper = styled.section<PropsType>`
         margin-top: 60px;
       }
     } 
-
   }
   
 

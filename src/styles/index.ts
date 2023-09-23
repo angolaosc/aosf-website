@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
     max-width: 1216px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 20px;
   }
 
   body {

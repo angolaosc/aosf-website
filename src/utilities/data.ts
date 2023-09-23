@@ -11,6 +11,9 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 
+import AWS_User_group from "@/assets/Community/AWS_User_group.png"
+import CNCG_logo from "@/assets/Community/CNCG_Logo_Transparent-removebg-preview.png"
+
 import { CHAOSS_AFRICA_LOGO_opt, Culysoft, GitHub_Logo_White } from "@/assets";
 import {
   CDALogo,
@@ -148,6 +151,8 @@ export const communityLogos = [
     className: "CDA_Girls",
     href: "https://www.linkedin.com/company/cda-girls/",
   },
+  {id: 7, src: AWS_User_group, alt: "AWS_User_group", className: "AWS_User_group", href: "https://www.linkedin.com/company/aws-user-group-angola/"},
+  {id: 8, src: CNCG_logo, alt: "CNCG_logo", className: "CNCG_logo", href: "https://community.cncf.io/cloud-native-luanda/"}
 ];
 
 export const CONTACTS = [
