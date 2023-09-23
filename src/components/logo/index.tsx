@@ -1,8 +1,6 @@
 import Image from "next/image";
 import { Wrapper } from "./style";
-
-import communityLogo from "@/assets/comunityLogoText.png";
-import communityIcon from "@/assets/logo@4x.png";
+import {communityLogo, communityIcon} from "@/assets";
 
 export function Logo() {
   const IMAGES = [

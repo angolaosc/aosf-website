@@ -8,7 +8,7 @@ import { Wrapper } from "./style";
 export function MenuMobile() {
   const [openMenuMobile, setOpenMenuMobile] = useState(false);
 
-  const scrollThePage = (event: any, href: any) => {
+  const ScrollThePage = (event: any, href: any) => {
     useScrollPage({ event, href });
     setOpenMenuMobile((prev) => !prev);
   };
@@ -28,7 +28,7 @@ export function MenuMobile() {
             {menu.map(({ id, title, target }) => (
               <a
                 href={target}
-                onClick={(e) => scrollThePage(e, target)}
+                onClick={(e) => ScrollThePage(e, target)}
                 key={id}
               >
                 {title}

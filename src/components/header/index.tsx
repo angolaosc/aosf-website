@@ -5,7 +5,7 @@ import { Logo, MenuMobile } from "..";
 import { Wrapper } from "./style";
 
 export function Header() {
-  const scrollThePage = (event: any, href: any) => {
+  const ScrollThePage = (event: any, href: any) => {
     useScrollPage({ event, href });
   };
 
@@ -21,7 +21,7 @@ export function Header() {
             {menu.map(({ id, title, target }) => (
               <a
                 href={target}
-                onClick={(e) => scrollThePage(e, target)}
+                onClick={(e) => ScrollThePage(e, target)}
                 key={id}
               >
                 {title}

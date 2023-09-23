@@ -1,7 +1,7 @@
-import calendar from "@/assets/calendar.svg";
-import location from "@/assets/location.svg";
+"use client";
 import Image from "next/image";
 import { Wrapper } from "./style";
+import { calendar, location } from "@/assets";
 
 export function Calendar() {
   return (

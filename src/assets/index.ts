@@ -13,6 +13,11 @@ import PedroFracnoImg from "./images/PedroFranco.jpg";
 import WaltDeJesusImg from "./images/walt.jpg";
 import MrAguinaldo from "./images/Mr_Aguinaldo.jpg";
 
+import calendar from "./images/calendar.svg";
+import location from "./images/location.svg";
+import communityLogo from "./images/comunityLogoText.png";
+import communityIcon from "./images/logo@4x.png";
+
 export {
   CHAOSS_AFRICA_LOGO_opt,
   backgroundImg,
@@ -26,4 +31,8 @@ export {
   PedroFracnoImg,
   WaltDeJesusImg,
   MrAguinaldo,
+  calendar,
+  location,
+  communityLogo,
+  communityIcon,
 };

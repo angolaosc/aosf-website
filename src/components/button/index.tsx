@@ -1,3 +1,4 @@
+"use client";
 import { Wrapper } from "./style";
 
 interface PropsType {
