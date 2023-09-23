@@ -1,15 +1,15 @@
 "use client";
+import { useScrollPage } from "@/hooks/useScrollPage";
+import { menu } from "@/utilities/data";
 import { useState } from "react";
 import { HiMenuAlt3 } from "react-icons/hi";
-import { menu } from "@/utilities/data";
 import { Wrapper } from "./style";
-import { UseScrollPage } from "@/hooks/useScrollPage";
 
 export function MenuMobile() {
   const [openMenuMobile, setOpenMenuMobile] = useState(false);
 
   const scrollThePage = (event: any, href: any) => {
-    UseScrollPage({ event, href });
+    useScrollPage({ event, href });
     setOpenMenuMobile((prev) => !prev);
   };
 
