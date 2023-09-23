@@ -3,7 +3,6 @@ const path = require('path')
 
 const nextConfig = {
   compiler: {
-    reactStrictMode: true,
     styledComponents: true,
   },
 }
