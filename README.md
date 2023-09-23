@@ -4,7 +4,7 @@ Official website for the Angola Open-source Fest 2023: Hacktoberfest Edition
 
 ## Getting Started
 
-After Download it, install the dependencies:
+After download it, install the dependencies:
 
 ```bash
 npm install
@@ -14,7 +14,7 @@ yarn
 pnpm
 ```
 
-And Then, run the development server:
+And then, run the development server:
 
 ```bash
 npm run dev
