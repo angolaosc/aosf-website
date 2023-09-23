@@ -51,6 +51,16 @@ export const StyleComunity = styled.div`
    width: 90px;
   }
 
+  img.AWS_User_group {
+    height: 36px;
+    object-fit: cover;
+  }
+
+  img.CNCG_logo {
+    height: 130px;
+    object-fit: cover;
+  }
+
   img.CDA_Girls {
     objectize: cover;
     height: 50px;
@@ -75,18 +85,109 @@ export const StyleComunity = styled.div`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  @media (max-width: 300px) {
+    div.logos {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
   img {
     height: 28px;
     max-width: 150px;
     width: 100%;
   }
 
-  @media (max-width: 416px) {
-    div.logos {
-      display: grid;
-        grid-template-columns: repeat(1, 1fr);
-     }
+  @media (max-width: 371px) {
+     img.logoWTM {
+      object-fit: cover;
+      height: 70px;
+      width: 74px;
+    }
+
+    img.DL_logo_2018_color {
+      height: 23px;
+      width: 110px;
+      object-fit: cover;
+    }
+
+    img.MozdevzLogo {
+      height: 18px;
+      width: 128px;
+      object-fit: cover;
+    }
+
+    img.AWS_User_group {
+      height: 33px;
+      width: 132px;
+      object-fit: cover;
+    }
+
+    img.CNCG_logo {
+      height: 100px;
+      width: 110px;
+      object-fit: cover;
+    }
+
+    img.CDA_Girls {
+      objectize: cover;
+      height: 40px;
+      width: 122px;
+    }
+
+    img.CDAlogo {
+      objectize: cover;
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+    }
   }
+
+  @media (max-width: 314px) {
+    img.logoWTM {
+     object-fit: cover;
+     height: 57px;
+     width: 55px;
+   }
+
+   img.DL_logo_2018_color {
+     height: 20px;
+     width: 100px;
+     object-fit: cover;
+   }
+
+   img.MozdevzLogo {
+     height: 17px;
+     width: 120px;
+     object-fit: cover;
+   }
+
+   img.AWS_User_group {
+     height: 32px;
+     width: 126px;
+     object-fit: cover;
+   }
+
+   img.CNCG_logo {
+     height: 90px;
+     width: 100px;
+     object-fit: cover;
+   }
+
+   img.CDA_Girls {
+     objectize: cover;
+     height: 35px;
+     width: 108px;
+   }
+
+   img.CDAlogo {
+     objectize: cover;
+     height: 60px;
+     width: 64px;
+     border-radius: 50%;
+   }
+ }
 
   @media (max-width: 546px) {
     .logos {
@@ -103,11 +204,33 @@ export const StyleComunity = styled.div`
    }
   }
 
+  @media (max-width: 1115px) {
+    text-align: left;
+   .logos {
+    display: grid;
+      grid-template-columns: repeat(4, 1fr);
+   }
+  }
+
   @media (max-width: 546px) {
     .logos {
       display: grid;
         grid-template-columns: repeat(2, 1fr);
      }
+  }
+
+  @media (max-width: 1073px) {
+    .logos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 580px) {
+    .logos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 `;
 
