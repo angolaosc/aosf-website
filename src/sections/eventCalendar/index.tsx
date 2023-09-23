@@ -3,11 +3,7 @@ import { Calendar, SpecialTitle } from "@/components";
 import { motion } from "framer-motion";
 import { Wrapper } from "./style";
 
-interface PropsType {
-  id: string;
-}
-
-export default function EventCalendar({ id }: PropsType) {
+export default function EventCalendar({ id }: { id: string }) {
   return (
     <Wrapper id={id}>
       <div className="main__container">

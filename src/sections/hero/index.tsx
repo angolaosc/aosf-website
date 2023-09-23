@@ -1,6 +1,5 @@
 "use client";
-import { backgroundImg } from "@/assets";
-import { CHAOSS_AFRICA_LOGO_opt } from "@/assets/";
+import { CHAOSS_AFRICA_LOGO_opt, backgroundImg } from "@/assets";
 import { Button, Logo, SpecialTitle } from "@/components";
 import { BUTTONS } from "@/utilities/data";
 import { motion } from "framer-motion";

@@ -1,10 +1,10 @@
 import EventCalendar from "./eventCalendar";
 import Hero from "./hero";
 import Informations from "./informations";
-import Support from "./support";
 import Root from "./root";
+import Support from "./support";
 
-export const Section = {
+export const Sections = {
   Hero,
   Event: EventCalendar,
   Informations,
