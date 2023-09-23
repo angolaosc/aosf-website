@@ -39,6 +39,7 @@ export const StyleComunity = styled.div`
   flex-direction: column;
   text-align: center;
   gap: 14px;
+
   .logos {
     display: flex;
     align-items: center;
@@ -46,19 +47,19 @@ export const StyleComunity = styled.div`
   }
 
   img.logoWTM {
-   object-fit: cover;
-   height: 85px;
-   width: 90px;
+    object-fit: cover;
+    height: 85px;
+    width: 90px;
   }
 
   img.CDA_Girls {
-    objectize: cover;
+    object-fit: cover;
     height: 50px;
     width: 300px;
   }
 
   img.CDAlogo {
-    objectize: cover;
+    object-fit: cover;
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -75,6 +76,7 @@ export const StyleComunity = styled.div`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
   img {
     height: 28px;
     max-width: 150px;
@@ -84,8 +86,8 @@ export const StyleComunity = styled.div`
   @media (max-width: 416px) {
     div.logos {
       display: grid;
-        grid-template-columns: repeat(1, 1fr);
-     }
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
 
   @media (max-width: 546px) {
@@ -97,25 +99,25 @@ export const StyleComunity = styled.div`
 
   @media (max-width: 836px) {
     text-align: left;
-   .logos {
-    display: grid;
+    .logos {
+      display: grid;
       grid-template-columns: repeat(3, 1fr);
-   }
+    }
   }
 
   @media (max-width: 546px) {
     .logos {
       display: grid;
-        grid-template-columns: repeat(2, 1fr);
-     }
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 `;
-
 
 export const StyleCompany = styled.div`
   display: flex;
   flex-direction: column;
   gap: 14px;
+
   h2 {
     font-size: 22px;
     background: var(
@@ -126,6 +128,7 @@ export const StyleCompany = styled.div`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
   img {
     height: 28px;
     max-width: 150px;
