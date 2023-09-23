@@ -4,7 +4,17 @@ Official website for the Angola Open-source Fest 2023: Hacktoberfest Edition
 
 ## Getting Started
 
-First, run the development server:
+After Download it, install the dependencies:
+
+```bash
+npm install
+# or
+yarn
+# or
+pnpm
+```
+
+And Then, run the development server:
 
 ```bash
 npm run dev
