@@ -1,17 +1,17 @@
-import { Section } from "@/sections";
-import Footer from "@/components/footer";
-import Hero from "@/sections/hero";
-import CopyrightFooter from "@/components/copyrightFooter";
+"use client";
+
+import { CopyrightFooter, Footer } from "@/components";
+import { Sections } from "@/sections";
 
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Section.Root>
-        <Section.Event id="schedule" />
-        <Section.Informations id="information" />
-        <Section.Support id="partner" />
-      </Section.Root>
+      <Sections.Hero />
+      <Sections.Root>
+        <Sections.Event id="schedule" />
+        <Sections.Informations id="information" />
+        <Sections.Support id="partner" />
+      </Sections.Root>
 
       <Footer id="contact" />
       <CopyrightFooter />

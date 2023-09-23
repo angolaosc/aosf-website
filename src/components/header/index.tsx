@@ -1,13 +1,12 @@
 "use client";
-import MenuMobile from "../menuMobile/index";
+import { useScrollPage } from "@/hooks/useScrollPage";
 import { menu } from "@/utilities/data";
-import Logo from "../logo/index";
+import { Logo, MenuMobile } from "..";
 import { Wrapper } from "./style";
-import { UseScrollPage } from "@/hooks/useScrollPage";
 
-export default function Header() {
-  const scrollThePage = (event: any, href: any) => {
-    UseScrollPage({ event, href });
+export function Header() {
+  const ScrollThePage = (event: any, href: any) => {
+    useScrollPage({ event, href });
   };
 
   return (
@@ -22,7 +21,7 @@ export default function Header() {
             {menu.map(({ id, title, target }) => (
               <a
                 href={target}
-                onClick={(e) => scrollThePage(e, target)}
+                onClick={(e) => ScrollThePage(e, target)}
                 key={id}
               >
                 {title}

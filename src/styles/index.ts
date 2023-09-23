@@ -1,20 +1,18 @@
 import { createGlobalStyle } from "styled-components";
 
-
-
 export const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
-    border: none;
-    outline: none;
+    border: 0;
+    outline: 0;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     box-sizing: border-box;
   }
 
-  .main__container{
+  .main__container {
     max-width: 1216px;
     width: 100%;
     margin: 0 auto;
@@ -26,7 +24,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: #0C0911;
   }
 
-  html{
+  html {
     font-size: 62.5%;
     overflow-x: hidden;
   }
@@ -43,6 +41,5 @@ export const GlobalStyle = createGlobalStyle`
     border-radius: 20px;
     border: 1px solid rgba(254, 42, 42, 0.26);
     background: linear-gradient(134deg, rgba(4, 158, 168, 0.06) 1.22%, rgba(70, 37, 141, 0.00) 100%);
-
   }
-`
+`;

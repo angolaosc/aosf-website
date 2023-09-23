@@ -1,14 +1,9 @@
 "use client";
+import { Calendar, SpecialTitle } from "@/components";
 import { motion } from "framer-motion";
-import { Calendar } from "@/components/calendar";
 import { Wrapper } from "./style";
-import { SpecialTitle } from "@/components/specialTitle";
 
-interface PropsType {
-  id: string;
-}
-
-export default function EventCalendar({ id }: PropsType) {
+export default function EventCalendar({ id }: { id: string }) {
   return (
     <Wrapper id={id}>
       <div className="main__container">
