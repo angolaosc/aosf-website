@@ -1,7 +1,6 @@
 import { ReactNode } from "react";
 import { StyleCompany } from "./style";
 
-
 interface PropsType {
   title: string;
   logo: ReactNode;

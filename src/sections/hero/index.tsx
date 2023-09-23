@@ -1,13 +1,11 @@
 "use client";
-import Image from "next/image";
-import CHAOSS_AFRICA_LOGO_opt from "@/assets/Platinum/chaossLogo.svg";
-import { motion } from "framer-motion";
-import Logo from "@/components/logo";
-import { Wrapper } from "./style";
-import backgroundImg from "@/assets/background.png";
-import { SpecialTitle } from "@/components/specialTitle";
-import { Button } from "@/components/button";
+import { backgroundImg } from "@/assets";
+import { CHAOSS_AFRICA_LOGO_opt } from "@/assets/";
+import { Button, Logo, SpecialTitle } from "@/components";
 import { BUTTONS } from "@/utilities/data";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import { Wrapper } from "./style";
 
 export default function Hero() {
   const openExternalLink = (externalLink: string) => {
@@ -18,7 +16,7 @@ export default function Hero() {
   return (
     <Wrapper image={backgroundImg}>
       <div className="menu__container">
-        <div id="">
+        <div>
           <div className="text__area">
             <motion.h1
               initial={{ opacity: 0 }}
@@ -80,7 +78,6 @@ export default function Hero() {
                 className="chaoss"
               />
             </a>
-
           </motion.div>
         </div>
       </div>
