@@ -1,3 +1,5 @@
+"use client";
+
 import { CopyrightFooter, Footer } from "@/components";
 import { Sections } from "@/sections";
 
