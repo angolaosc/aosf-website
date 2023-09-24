@@ -9,7 +9,7 @@ export function Calendar() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: 0.7 }}
+      transition={{ duration: 0.3, delay: 0.7 }}
     >
       <div className="calendar">
         <Image src={calendar} alt="calendar" />

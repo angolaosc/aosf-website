@@ -24,7 +24,7 @@ export default function Hero() {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.3 }}
+              transition={{ duration: 0.3, delay: 0.3 }}
             >
               Angola <br /> <span>Open-Source Fest</span>
             </motion.h1>
@@ -33,7 +33,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 1 }}
+              transition={{ duration: 0.3, delay: 1 }}
               className="date"
             >
               <SpecialTitle
@@ -61,7 +61,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 2.8 }}
+            transition={{ duration: 0.3, delay: 2.8 }}
           >
             Organização
           </motion.h2>
@@ -70,7 +70,7 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 3.2 }}
+            transition={{ duration: 0.3, delay: 3.2 }}
           >
             <Logo />
             <a href="https://twitter.com/chaoss_africa">

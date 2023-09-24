@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Calendar } from "@/components/calendar";
 import { Wrapper } from "./style";
 import { SpecialTitle } from "@/components/specialTitle";
+import EventInformations from "./eventInformations";
 
 interface PropsType {
   id: string;
@@ -19,7 +20,7 @@ export default function EventCalendar({ id }: PropsType) {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.3 }}
             >
               <SpecialTitle content="Angola Open-Source Fest" />
             </motion.div>
@@ -28,7 +29,7 @@ export default function EventCalendar({ id }: PropsType) {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.5 }}
+              transition={{ duration: 0.3, delay: 0.5 }}
             >
               <p>
                 Junte-se a nós para o Angola Open-source Fest Edição
@@ -44,19 +45,31 @@ export default function EventCalendar({ id }: PropsType) {
                 programação!
               </p>
             </motion.div>
-          </div>
-          <div>
-            <h3>Entrada Grátis</h3>
+
+            <div id="freeEntry">
+              <h3>Entrada Grátis</h3>
+            </div>
           </div>
 
           <Calendar />
         </div>
 
-        <div className="frame__area">
-          <SpecialTitle content="Agenda do evento" />
+        <motion.div
+          className="content"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.3, delay: 0.5 }}
+        >
+          <div className="frame__area">
+            <SpecialTitle content="Agenda do evento" />
 
-          <h1>BREVEMENTE</h1>
-        </div>
+            <EventInformations title="Sexta-feira, 00’ Agosto’ 2023" time="09:00 - 09:45" description="Abertura do Angola Open-Source Fest Init 2023" speaker="Lázaro Manuel" second_title="Quinta-Feira, 00’ Abril 2024" second_time="19:00 - 09:45" second_description="Angola Open-Source Fest Init 2023" second_speaker="Lázaro" />
+            <EventInformations title="Sexta-feira, 00’ Agosto’ 2023" time="09:00 - 09:45" description="Abertura do Angola Open-Source Fest Init 2023" speaker="Lázaro Manuel" second_title="Quinta-Feira, 00’ Abril 2024" second_time="19:00 - 09:45" second_description="Angola Open-Source Fest Init 2023" second_speaker="Lázaro" />
+            <EventInformations title="Sexta-feira, 00’ Agosto’ 2023" time="09:00 - 09:45" description="Abertura do Angola Open-Source Fest Init 2023" speaker="Lázaro Manuel" second_title="Quinta-Feira, 00’ Abril 2024" second_time="19:00 - 09:45" second_description="Angola Open-Source Fest Init 2023" second_speaker="Lázaro" />
+            <EventInformations title="Sexta-feira, 00’ Agosto’ 2023" time="09:00 - 09:45" description="Abertura do Angola Open-Source Fest Init 2023" speaker="Lázaro Manuel" second_title="Quinta-Feira, 00’ Abril 2024" second_time="19:00 - 09:45" second_description="Angola Open-Source Fest Init 2023" second_speaker="Lázaro" />
+          </div>
+        </motion.div>
       </div>
     </Wrapper>
   );
