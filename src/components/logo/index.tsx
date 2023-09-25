@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Wrapper } from "./style";
 
-import communityLogo from "@/assets/comunityLogoText.png";
+import communityLogo from "@/assets/communityLogoText.png";
 import communityIcon from "@/assets/logo@4x.png";
 
 export default function Logo() {

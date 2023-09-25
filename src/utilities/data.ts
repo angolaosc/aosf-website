@@ -10,6 +10,7 @@ import { PropsTypeLogo, PropsTypeInformation, PropsTypeMenu } from "@/interfaces
 import ChaossAfricaLogo from "@/assets/Platinum/chaossLogo.svg";
 import Culysoft from "@/assets/Silver/culysoft.png"
 import GitHub_Logo_White from "@/assets/In-kind/GitHub_Logo_White.png"
+import SauceLabLogo from "@/assets/In-kind/sl.png"
 
 import DL_logo_2018_color from "@/assets/Community/DL_logo_2018_color.png"
 import MozdevzLogo from "@/assets/Community/Mozdevz logo - White.png"
