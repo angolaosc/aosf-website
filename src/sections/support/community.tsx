@@ -1,12 +1,12 @@
 "use client";
 import { communityLogos } from "@/utilities/data";
 import Image from "next/image";
-import { StyleComunity } from "./style";
+import { StyleCommunity } from "./style";
 
-export function Comunity() {
+export function Community() {
   return (
-    <StyleComunity>
-      <h2>Comunity</h2>
+    <StyleCommunity>
+      <h2>Community</h2>
       <div className="logos">
         {communityLogos.map(({ id, src, alt, className, href}) => (
           <a key={id} href={href}>
@@ -14,6 +14,6 @@ export function Comunity() {
           </a>
         ))}
       </div>
-    </StyleComunity>
+    </StyleCommunity>
   );
 }

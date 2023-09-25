@@ -1,6 +1,6 @@
 "use client";
 import { Partners } from "./partners";
-import { Comunity } from "./comunity";
+import { Community } from "./community";
 import { Wrapper } from "./style";
 
 interface PropsType {
@@ -12,7 +12,7 @@ export default function Support({ id }: PropsType) {
     <Wrapper id={id}>
       <div className="main__container">
         <Partners />
-        <Comunity />
+        <Community />
       </div>
     </Wrapper>
   );
