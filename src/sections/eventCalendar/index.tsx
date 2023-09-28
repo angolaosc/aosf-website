@@ -64,14 +64,38 @@ export default function EventCalendar({ id }: PropsType) {
           <div className="frame__area">
             <SpecialTitle content="Agenda do evento" />
 
-            <EventInformations day="Sexta-feira, 00’ Agosto’ 2023 - Kickoff day"
+            <EventInformations day="Sexta-feira, 00’ Outubro 2023 - Kickoff day"
               items={[
                 { time: "19:00 - 19:15 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest" },
                 { time: "19:15 - 19:35 GMT+1", speaker: "Paloma Oliveira", description: "Introdução e importância do Open-source para a carreira" },
                 { time: "19:35 - 20:15 GMT+1", speaker: "Samuel Vaz", description: "Contribuindo para o Délegua: Desenvolvendo em Português com TypeScript" },
                 { time: "19:35 - 20:15 GMT+1", speaker: "Juraci Paixão Kröhling", description: "Contribuindo para o Open Telemetry: Seu Primeiro Passo no Código Aberto" },
                 { time: "19:35 - 20:15 GMT+1", speaker: "Arthur Silva", description: "Contribuindo para o pREST: Simplificando o Desenvolvimento com PostgreSQL REST" },
-                { time: "20:15 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento" },
+                { time: "20:15 - 20:30 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento, informações sobre o Hackathon e Giveaways" },
+              ]}
+            />
+
+          <EventInformations day="Domingo, 15’ Outubro 2023 - Open-source hackathon"
+              items={[
+                { time: "09:30 - 10:00 GMT+1", speaker: "Voluntários", description: "Check-in" },
+                { time: "10:00 - 10:10 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do evento" },
+                { time: "10:10 - 10:25 GMT+1", speaker: "Ruth Ikegah", description: "Welcome to CHAOSS Africa" },
+                { time: "10:25 - 10:35 GMT+1", speaker: "Filipe Mulonde", description: "Lightning talk" },
+                { time: "10:35 - 11:00 GMT+1", speaker: "Todos participantes", description: "Lunch e preparação para a sessão de coding" },
+                { time: "11:00 - 14:00 GMT+1", speaker: "Todos hackers", description: "Sessão de contribuição 1." },
+                { time: "14:00 - 14:30 GMT+1", speaker: "Todos participantes", description: "Coffe Break e Networking" },
+                { time: "14:30 - 17:00 GMT+1", speaker: "Todos hackers", description: "Sessão de contribuição 2." },
+                { time: "17:00 - 17:15 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento e avisos importantes sobre os vencedores." },
+              ]}
+            />
+
+
+          <EventInformations day="Terça-feira, 24’ Outubro 2023 - Workshop day Selenium"
+              items={[
+                { time: "19:00 - 19:15 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest" },
+                { time: "19:15 - 20:15 GMT+1", speaker: "Diego Melina", description: "Fazendo tua primeira contribuição para o Selenium." },
+                { time: "20:15 - 20:30 GMT+1", speaker: "TBA", description: "Anúncio dos vencedores do Hackathon." },
+                { time: "20:30 - 20:35 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento" },
               ]}
             />
 
