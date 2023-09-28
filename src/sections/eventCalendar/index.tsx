@@ -99,6 +99,14 @@ export default function EventCalendar({ id }: PropsType) {
               ]}
             />
 
+        <EventInformations day="Sexta-feira, 27’ Outubro 2023 - Open-source para empresas(Registro obrigatório)"
+              items={[
+                { time: "TBA    ", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest" },
+                { time: "TBA    ", speaker: "TBA", description: "Inovação e Sustentabilidade Empresarial com Open Source." },
+                { time: "TBA    ", speaker: "Angola Open-source Community", description: "Encerramento." },
+              ]}
+            />
+
           </div>
         </motion.div>
       </div>
