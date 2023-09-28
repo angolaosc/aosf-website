@@ -28,15 +28,12 @@ export default function EventInformations({ title, time, description, speaker, s
                                 <p id="time">{time}</p>
                                 <p>{description}<br /> <span>{speaker}</span></p>
                             </div>
-                        </div>
-
-                        <div>
-                            <h2>{second_title}</h2>
 
                             <div>
                                 <p id="time">{second_time}</p>
                                 <p>{second_description}<br /> <span>{second_speaker}</span></p>
                             </div>
+
                         </div>
                     </section>
                 </div>
