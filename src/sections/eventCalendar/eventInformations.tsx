@@ -23,15 +23,13 @@ export default function EventInformations({day, items}: EventDayProps) {
 
                     <section>
                         <div>
-                            <h2>{day}</h2>
-                            {
-                                items.map((item, index) => (
+                            <h2>{day}</h2> {
+                                items.map((item, index, key) => (
                                     <div>
                                         <p id="time">{item.time}</p>
                                         <p>{item.description}<br /> <span>{item.speaker}</span></p>
                                     </div>
-                                ))
-                            }
+                                ))}
                         </div>
                     </section>
                 </div>
