@@ -71,11 +71,11 @@ export default function EventCalendar({ id }: PropsType) {
                 { time: "19:35 - 20:15 GMT+1", speaker: "Samuel Vaz", description: "Contribuindo para o Délegua: Desenvolvendo em Português com TypeScript" },
                 { time: "19:35 - 20:15 GMT+1", speaker: "Juraci Paixão Kröhling", description: "Contribuindo para o Open Telemetry: Seu Primeiro Passo no Código Aberto" },
                 { time: "19:35 - 20:15 GMT+1", speaker: "Arthur Silva", description: "Contribuindo para o pREST: Simplificando o Desenvolvimento com PostgreSQL REST" },
-                { time: "20:15 - 20:30 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento, informações sobre o Hackathon e Giveaways" },
+                { time: "20:15 - 20:30 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento, informações sobre o Hackathon e giveaways" },
               ]}
             />
 
-          <EventInformations day="Domingo, 15’ Outubro 2023 - Open-source hackathon"
+          <EventInformations day="Domingo, 15’ Outubro 2023 - Open-source hackathon(Evento Presencial, Registro obrigatório)"
               items={[
                 { time: "09:30 - 10:00 GMT+1", speaker: "Voluntários", description: "Check-in" },
                 { time: "10:00 - 10:10 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do evento" },
@@ -90,12 +90,12 @@ export default function EventCalendar({ id }: PropsType) {
             />
 
 
-          <EventInformations day="Terça-feira, 24’ Outubro 2023 - Workshop day Selenium"
+          <EventInformations day="Terça-feira, 24’ Outubro 2023 - Workshop day Selenium(Evento Online, registro obrigatório)"
               items={[
                 { time: "19:00 - 19:15 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest" },
                 { time: "19:15 - 20:15 GMT+1", speaker: "Diego Melina", description: "Fazendo tua primeira contribuição para o Selenium." },
                 { time: "20:15 - 20:30 GMT+1", speaker: "TBA", description: "Anúncio dos vencedores do Hackathon." },
-                { time: "20:30 - 20:35 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento" },
+                { time: "20:30 - 20:35 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento e giveaways" },
               ]}
             />
 
