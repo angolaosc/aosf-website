@@ -66,6 +66,7 @@ export const Wrapper = styled.section`
       }
       display: flex;
       flex-direction: column;
+      margin-left: 0;
       flex-content:start;
       margin-top: -65px;
       padding: 28px 24px;
