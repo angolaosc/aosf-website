@@ -64,10 +64,17 @@ export default function EventCalendar({ id }: PropsType) {
           <div className="frame__area">
             <SpecialTitle content="Agenda do evento" />
 
-            <EventInformations title="Sexta-feira, 00’ Agosto’ 2023" time="09:00 - 09:45" description="Abertura do Angola Open-Source Fest Init 2023" speaker="Lázaro Manuel" second_title="Quinta-Feira, 00’ Abril 2024" second_time="19:00 - 09:45" second_description="Angola Open-Source Fest Init 2023" second_speaker="Lázaro" />
-            <EventInformations title="Sexta-feira, 00’ Agosto’ 2023" time="09:00 - 09:45" description="Abertura do Angola Open-Source Fest Init 2023" speaker="Lázaro Manuel" second_title="Quinta-Feira, 00’ Abril 2024" second_time="19:00 - 09:45" second_description="Angola Open-Source Fest Init 2023" second_speaker="Lázaro" />
-            <EventInformations title="Sexta-feira, 00’ Agosto’ 2023" time="09:00 - 09:45" description="Abertura do Angola Open-Source Fest Init 2023" speaker="Lázaro Manuel" second_title="Quinta-Feira, 00’ Abril 2024" second_time="19:00 - 09:45" second_description="Angola Open-Source Fest Init 2023" second_speaker="Lázaro" />
-            <EventInformations title="Sexta-feira, 00’ Agosto’ 2023" time="09:00 - 09:45" description="Abertura do Angola Open-Source Fest Init 2023" speaker="Lázaro Manuel" second_title="Quinta-Feira, 00’ Abril 2024" second_time="19:00 - 09:45" second_description="Angola Open-Source Fest Init 2023" second_speaker="Lázaro" />
+            <EventInformations day="Sexta-feira, 00’ Agosto’ 2023 - Kickoff day"
+              items={[
+                { time: "19:00 - 19:15 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest" },
+                { time: "19:15 - 19:35 GMT+1", speaker: "Paloma Oliveira", description: "Introdução e importância do Open-source para a carreira" },
+                { time: "19:35 - 20:15 GMT+1", speaker: "Samuel Vaz", description: "Contribuindo para o Délegua: Desenvolvendo em Português com TypeScript" },
+                { time: "19:35 - 20:15 GMT+1", speaker: "Juraci Paixão Kröhling", description: "Contribuindo para o Open Telemetry: Seu Primeiro Passo no Código Aberto" },
+                { time: "19:35 - 20:15 GMT+1", speaker: "Arthur Silva", description: "Contribuindo para o pREST: Simplificando o Desenvolvimento com PostgreSQL REST" },
+                { time: "20:15 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento" },
+              ]}
+            />
+
           </div>
         </motion.div>
       </div>
