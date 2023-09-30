@@ -64,7 +64,7 @@ export default function EventCalendar({ id }: PropsType) {
           <div className="frame__area">
             <SpecialTitle content="Agenda do evento" />
 
-            <EventInformations day="Sexta-feira, 00’ Outubro 2023 - Kickoff day"
+            <EventInformations day="Sexta-feira, 06’ Outubro 2023 - Kickoff day"
               items={[
                 { time: "19:00 - 19:15 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest" },
                 { time: "19:15 - 19:35 GMT+1", speaker: "Paloma Oliveira", description: "Introdução e importância do Open-source para a carreira" },
@@ -75,7 +75,7 @@ export default function EventCalendar({ id }: PropsType) {
               ]}
             />
 
-          <EventInformations day="Domingo, 15’ Outubro 2023 - Open-source hackathon(Evento Presencial, Registro obrigatório)"
+          <EventInformations day="Domingo, 15’ Outubro 2023 - Open-source hackathon(Evento Presencial)"
               items={[
                 { time: "09:30 - 10:00 GMT+1", speaker: "Voluntários", description: "Check-in" },
                 { time: "10:00 - 10:10 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do evento" },
