@@ -75,9 +75,6 @@ export const Wrapper = styled.section<PropsType>`
     } 
   }
   
-
-
-
 @media (max-width: 800px) {
   .menu__container{
     .text__area{
@@ -94,7 +91,7 @@ export const Wrapper = styled.section<PropsType>`
 
 
 
-@media (max-width: 412px) {
+@media (max-width: 505px) {
   .menu__container{
     .text__area{
      h1{

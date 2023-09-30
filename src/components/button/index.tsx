@@ -14,7 +14,7 @@ export function Button({ content, className, id, onClick }: PropsType) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: id + 1.4 }}
+      transition={{ duration: 0.3, delay: id + 1.4 }}
       onClick={() => onClick()}
     >
       {content}

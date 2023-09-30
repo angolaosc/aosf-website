@@ -1,7 +1,5 @@
 import { createGlobalStyle } from "styled-components";
 
-
-
 export const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
@@ -12,6 +10,8 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     box-sizing: border-box;
+
+    list-style: none;
   }
 
   .main__container{
@@ -24,6 +24,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     color: #fff;
     background-color: #0C0911;
+    
   }
 
   html{
@@ -43,6 +44,6 @@ export const GlobalStyle = createGlobalStyle`
     border-radius: 20px;
     border: 1px solid rgba(254, 42, 42, 0.26);
     background: linear-gradient(134deg, rgba(4, 158, 168, 0.06) 1.22%, rgba(70, 37, 141, 0.00) 100%);
-
   }
+
 `
