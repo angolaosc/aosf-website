@@ -66,44 +66,47 @@ export default function EventCalendar({ id }: PropsType) {
 
             <EventInformations day="Sexta-feira, 06’ Outubro 2023 - Kickoff day"
               items={[
-                { time: "19:00 - 19:15 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest" },
-                { time: "19:15 - 19:35 GMT+1", speaker: "Paloma Oliveira", description: "Introdução e importância do Open-source para a carreira" },
-                { time: "19:35 - 20:15 GMT+1", speaker: "Samuel Vaz", description: "Contribuindo para o Délegua: Desenvolvendo em Português com TypeScript" },
-                { time: "19:35 - 20:15 GMT+1", speaker: "Juraci Paixão Kröhling", description: "Contribuindo para o Open Telemetry: Seu Primeiro Passo no Código Aberto" },
-                { time: "19:35 - 20:15 GMT+1", speaker: "Arthur Silva", description: "Contribuindo para o pREST: Simplificando o Desenvolvimento com PostgreSQL REST" },
-                { time: "20:15 - 20:30 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento, informações sobre o Hackathon e giveaways" },
+                { time: "19:00 - 19:15 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest", speakerLink:'https://linktr.ee/angolaopensourcecommunity' },
+                { time: "19:15 - 19:35 GMT+1", speaker: "Paloma Oliveira", description: "Introdução e importância do Open-source para a carreira",  speakerLink:'https://www.linkedin.com/in/discombobulateme'},
+                { time: "19:35 - 20:15 GMT+1", speaker: "Samuel Vaz", description: "Contribuindo para o Délegua: Desenvolvendo em Português com TypeScript",  speakerLink:'https://www.linkedin.com/in/samuel-renan-goncalves-vaz/'},
+                { time: "19:35 - 20:15 GMT+1", speaker: "Juraci Paixão Kröhling", description: "Contribuindo para o Open Telemetry: Seu Primeiro Passo no Código Aberto", speakerLink:'https://www.linkedin.com/in/jpkroehling' },
+                { time: "19:35 - 20:15 GMT+1", speaker: "Arthur Silva", description: "Contribuindo para o pREST: Simplificando o Desenvolvimento com PostgreSQL REST",  speakerLink:'https://www.linkedin.com/in/arxdsilva'},
+                { time: "19:35 - 20:15 GMT+1", speaker: "Eliezer António", description: "Contribuindo para o Flutter Carousel Intro: Introduza Onboardings Animadas em Seus Apps",  speakerLink:'https://www.linkedin.com/in/eliezer-antonio/'},
+                { time: "19:35 - 20:15 GMT+1", speaker: "Paulo Lopes Estevão", description: "Contribuindo para o Risk Place Angola: Mapeando Locais de Risco com Código Aberto",  speakerLink:'https://www.linkedin.com/in/paulo-lopes-estev%C3%A3o-7a70881b4'},
+                { time: "19:35 - 20:15 GMT+1", speaker: "Klaibson Natal Ribeiro Borges ", description: "Contribuindo para o OnlyOffice: Impulsione sua Produtividade com Colaboração Aberta",  speakerLink:'https://www.linkedin.com/in/klaibson/'},
+                { time: "19:35 - 20:15 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento, informações sobre o Hackathon e giveaways",  speakerLink:'https://aosc.social'},
               ]}
             />
 
           <EventInformations day="Domingo, 15’ Outubro 2023 - Open-source hackathon(Evento Presencial)"
               items={[
-                { time: "09:30 - 10:00 GMT+1", speaker: "Voluntários", description: "Check-in" },
-                { time: "10:00 - 10:10 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do evento" },
-                { time: "10:10 - 10:25 GMT+1", speaker: "Ruth Ikegah", description: "Welcome to CHAOSS Africa" },
-                { time: "10:25 - 10:35 GMT+1", speaker: "Filipe Mulonde", description: "Lightning talk" },
-                { time: "10:35 - 11:00 GMT+1", speaker: "Todos participantes", description: "Lunch e preparação para a sessão de coding" },
-                { time: "11:00 - 14:00 GMT+1", speaker: "Todos hackers", description: "Sessão de contribuição 1." },
-                { time: "14:00 - 14:30 GMT+1", speaker: "Todos participantes", description: "Coffe Break e Networking" },
-                { time: "14:30 - 17:00 GMT+1", speaker: "Todos hackers", description: "Sessão de contribuição 2." },
-                { time: "17:00 - 17:15 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento e avisos importantes sobre os vencedores." },
+                { time: "09:30 - 10:00 GMT+1", speaker: "Voluntários", description: "Check-in",  speakerLink:''},
+                { time: "10:00 - 10:10 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do evento",  speakerLink:'https://linktr.ee/angolaopensourcecommunity'},
+                { time: "10:10 - 10:25 GMT+1", speaker: "Ruth Ikegah", description: "Welcome to CHAOSS Africa",  speakerLink:'https://www.linkedin.com/in/ruth-ikegah'},
+                { time: "10:25 - 10:35 GMT+1", speaker: "Filipe Mulonde", description: "Lightning talk",  speakerLink:'https://www.linkedin.com/in/filipe-mulonde-7552241a1'},
+                { time: "10:35 - 11:00 GMT+1", speaker: "Todos participantes", description: "Lunch e preparação para a sessão de coding",  speakerLink:''},
+                { time: "11:00 - 14:00 GMT+1", speaker: "Todos hackers", description: "Sessão de contribuição 1.",  speakerLink:''},
+                { time: "14:00 - 14:30 GMT+1", speaker: "Todos participantes", description: "Coffe Break e Networking",  speakerLink:''},
+                { time: "14:30 - 17:00 GMT+1", speaker: "Todos hackers", description: "Sessão de contribuição 2.",  speakerLink:''},
+                { time: "17:00 - 17:15 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento e avisos importantes sobre os vencedores.",  speakerLink:'https://linktr.ee/angolaopensourcecommunity'},
               ]}
             />
 
 
           <EventInformations day="Terça-feira, 24’ Outubro 2023 - Workshop day Selenium(Evento Online, registro obrigatório)"
               items={[
-                { time: "19:00 - 19:15 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest" },
-                { time: "19:15 - 20:15 GMT+1", speaker: "Diego Melina", description: "Fazendo tua primeira contribuição para o Selenium." },
-                { time: "20:15 - 20:30 GMT+1", speaker: "TBA", description: "Anúncio dos vencedores do Hackathon." },
-                { time: "20:30 - 20:35 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento e giveaways" },
+                { time: "19:00 - 19:15 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest",  speakerLink:'https://linktr.ee/angolaopensourcecommunity'},
+                { time: "19:15 - 20:15 GMT+1", speaker: "Diego Molina", description: "Fazendo tua primeira contribuição para o Selenium.", speakerLink:'https://www.linkedin.com/in/diemol/' },
+                { time: "20:15 - 20:30 GMT+1", speaker: "TBA", description: "Anúncio dos vencedores do Hackathon.",  speakerLink:''},
+                { time: "20:30 - 20:35 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento e giveaways",  speakerLink:'https://aosc.social'},
               ]}
             />
 
         <EventInformations day="Sexta-feira, 27’ Outubro 2023 - Open-source para empresas(Registro obrigatório)"
               items={[
-                { time: "TBA    ", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest" },
-                { time: "TBA    ", speaker: "TBA", description: "Inovação e Sustentabilidade Empresarial com Open Source." },
-                { time: "TBA    ", speaker: "Angola Open-source Community", description: "Encerramento." },
+                { time: "TBA    ", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest",  speakerLink:'https://linktr.ee/angolaopensourcecommunity'},
+                { time: "TBA    ", speaker: "TBA", description: "Inovação e Sustentabilidade Empresarial com Open Source.", speakerLink:'' },
+                { time: "TBA    ", speaker: "Angola Open-source Community", description: "Encerramento.",  speakerLink: 'https://linktr.ee/angolaopensourcecommunity'},
               ]}
             />
 
