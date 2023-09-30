@@ -6,7 +6,8 @@ import line from "@/assets/Line 3.svg"
 interface EventDayPropsItem {
     time: String,
     speaker: String,
-    description: String
+    description: String,
+    speakerLink: string,
 }
 
 interface EventDayProps {
@@ -27,7 +28,7 @@ export default function EventInformations({day, items}: EventDayProps) {
                                 items.map((item, index) => (
                                     <div key={index}>
                                         <p id="time">{item.time}</p>
-                                        <p><span>{item.description}</span><br />{item.speaker}</p>
+                                        <p><span>{item.description}</span><br/><a href={item.speakerLink}> {item.speaker}</a></p>
                                     </div>
                                 ))}
                         </div>
