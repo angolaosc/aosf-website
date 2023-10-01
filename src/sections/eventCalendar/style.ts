@@ -70,7 +70,6 @@ export const Wrapper = styled.section`
       flex-content:start;
       margin-top: -65px;
       padding: 28px 24px;
-      align-items: center;
       border-radius: 15px;
       border: 1px solid rgba(254, 42, 42, 0.26);
       background: linear-gradient(
@@ -79,6 +78,10 @@ export const Wrapper = styled.section`
         rgba(70, 37, 141, 0) 100%
       );
       width: 100%;
+
+      a {
+        color: rgba(59, 129, 251, 0.8);
+      }
 
       h1 {
         margin-top: 40px;
@@ -145,12 +148,43 @@ export const Wrapper = styled.section`
 `
 
 export const InformationsStyle = styled.section`
+  > section {
+    border-left: 2px solid #9b2123;
+    margin-left: 130px;
+
+    @media (max-width: 1191px) {
+      margin-left: 100px;
+    }
+
+    @media (max-width: 1135px) {
+      margin-left: 80px;
+    }
+
+    @media (max-width: 1103px) {
+      margin-left: 50px;
+    }
+
+    @media (max-width: 1155px) {
+      margin-left: 30px;
+    }
+    
+    @media (max-width: 1019px) {
+      margin-left: 0px;
+    }
+  }
     section {
      > div {
         margin-top: 30px;
         display: flex;
         align-items: center;
         gap: 20px;
+
+        margin-left: 10px;
+      }
+
+      small {
+        display: flex;
+        flex-direction: column;
       }
 
       h2 {
@@ -174,7 +208,7 @@ export const InformationsStyle = styled.section`
           display: flex;
           flex-direction: row;
 
-          @media (max-width: 763px) {
+          @media (max-width: 935px) {
             flex-direction: column;
             gap: 8px;
           }

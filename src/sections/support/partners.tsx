@@ -3,6 +3,7 @@ import Image from "next/image";
 import { sponsors } from "@/utilities/data";
 import { Company } from "./company";
 import { StylePartners } from "./style";
+import InKindSponsors from "./inKindSponsors";
 
 export function Partners() {
   return (
@@ -14,6 +15,7 @@ export function Partners() {
           logo={<a  href={href}><Image src={src} alt={alt} className={className} /></a>}
         />
       ))}
+      <InKindSponsors />
     </StylePartners>
   );
 }

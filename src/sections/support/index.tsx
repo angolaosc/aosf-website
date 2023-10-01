@@ -2,6 +2,7 @@
 import { Partners } from "./partners";
 import { Community } from "./community";
 import { Wrapper } from "./style";
+import InKindSponsors from "./inKindSponsors";
 
 interface PropsType {
   id: string;
