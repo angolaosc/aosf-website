@@ -208,7 +208,7 @@ export const InformationsStyle = styled.section`
           display: flex;
           flex-direction: row;
 
-          @media (max-width: 935px) {
+          @media (max-width: 763px) {
             flex-direction: column;
             gap: 8px;
           }
