@@ -90,10 +90,14 @@ export const informations: PropsTypeInformation[] =  [
 
 
 
-export const sponsors: PropsTypeLogo[] = [
+export const sponsors = [
   { id: 0, title: 'Platinum', src: ChaossAfricaLogo, alt: "ChaossAfricaLogo", className: "ChaossAfricaLogo", href: "https://twitter.com/chaoss_africa"},
   { id: 1, title: 'Silver', src: Culysoft, alt: "Culysoft", className: 'silver', href: "https://culysoft.com/",},
-  { id: 2, title: 'in-kind sponsors', src: GitHub_Logo_White, alt: "GitHub_Logo_White", className: 'in__kind__sponsors', href: "https://github.com/"},
+]
+
+export const inKindSponsors = [
+  { id: 1, src: GitHub_Logo_White, alt: "GitHub_Logo_White", className: 'gitHub', href: "https://github.com/",},
+  {id: 2, src: SauceLabLogo, alt: "SauceLabLogo", className: 'SauceLabLogo', href: "https://saucelabs.com/"}  
 ]
 
 export const communityLogos = [

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-
 export const Wrapper = styled.h2`
   display: flex;
+  margin: 0 auto;
   align-items: center;
   gap: 14px;
   font-size: 32px;

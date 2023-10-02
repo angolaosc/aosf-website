@@ -18,6 +18,45 @@ export const Wrapper = styled.section`
   }
 `;
 
+export const InKindSponsorsStyle = styled.section `
+  div {
+    display: flex;
+    gap: 30px;
+
+    @media (max-width: 369px) {
+      flex-direction: column;
+
+      img.gitHub {
+        width: 100px;
+      }
+    }
+  }
+
+  h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    background: var(
+      --vf,
+      linear-gradient(170deg, #fe2a2a 12.25%, #f7931e 108.64%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  img.gitHub {
+    height: 29px;
+    width: 120px;
+    object-fit: cover;
+  }
+
+  img.SauceLabLogo {
+    height: 29px;
+    width: 150px;
+    object-fit: cover;
+  }
+`;
+
 export const StylePartners = styled.div`
   display: flex;
   justify-content: space-between;

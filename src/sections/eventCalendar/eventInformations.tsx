@@ -20,7 +20,6 @@ export default function EventInformations({day, items}: EventDayProps) {
         <InformationsStyle>
             <section>
                 <div>
-                    <Image alt="Line" src={line} />
 
                     <section>
                         <div>
