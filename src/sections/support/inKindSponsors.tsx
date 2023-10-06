@@ -5,7 +5,7 @@ import { inKindSponsors } from "../../utilities/data"
 export default function InKindSponsors() {
     return (
         <InKindSponsorsStyle>
-            <h2 className="supportsTitle">in-Kind sponsors</h2>
+            <h2 className="supportsTitle">in-Kind</h2>
             <div className="logos">
                 {inKindSponsors.map(({ id, src, alt, className, href }) => (
                     <a key={id} href={href}>

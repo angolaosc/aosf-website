@@ -5,7 +5,7 @@ import { goldSponsor } from "../../utilities/data"
 export default function GoldSponsor() {
     return (
         <GoldSection>
-            <h2 className="supportsTitle">Gold Sponsor</h2>
+            <h2 className="supportsTitle">Gold</h2>
             <div className="logos">
                 {goldSponsor.map(({ id, src, alt, className, href }) => (
                     <a key={id} href={href}>
