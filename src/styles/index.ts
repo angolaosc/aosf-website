@@ -46,4 +46,15 @@ export const GlobalStyle = createGlobalStyle`
     background: linear-gradient(134deg, rgba(4, 158, 168, 0.06) 1.22%, rgba(70, 37, 141, 0.00) 100%);
   }
 
+  h2.supportsTitle {
+    font-size: 22px;
+    margin-bottom: 20px;
+    background: var(
+      --vf,
+      linear-gradient(170deg, #fe2a2a 12.25%, #f7931e 108.64%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 `

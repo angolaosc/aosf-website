@@ -11,20 +11,23 @@ import ChaossAfricaLogo from "@/assets/Platinum/chaossLogo.svg";
 import Culysoft from "@/assets/Silver/culysoft.png"
 import GitHub_Logo_White from "@/assets/In-kind/GitHub_Logo_White.png"
 import SauceLabLogo from "@/assets/In-kind/sl.png"
+import interledgerLogo from "@/assets/Gold/interledgerLogo.svg";
 
 import DL_logo_2018_color from "@/assets/Community/DL_logo_2018_color.png"
 import MozdevzLogo from "@/assets/Community/Mozdevz logo - White.png"
 import logoWTM from "@/assets/Community/logoWTM.png"
 import CDALogo from "@/assets/Community/CDA.jpg"
+import logo_principal_branco from "@/assets/Gold/Logo_principal_branco.png"
 import CDA_Girls from "@/assets/Community/CDA_Girls-removebg-preview.png"
 
 import AWS_User_group from "@/assets/Community/AWS_User_group.png"
 import CNCG_logo from "@/assets/Community/CNCG_Logo_Transparent-removebg-preview.png"
+import devexpertsLogo from "@/assets/Platinum/devexpertsLogo.png";
+import portal_de_ti from "@/assets/MediaPartners/portal_de_ti.png"
 
 import PedroFracnoImg from "@/assets/PedroFranco.jpg";
 import WaltDeJesusImg from "@/assets/walt.jpg";
 import MrAguinaldo from "@/assets/Mr_Aguinaldo.jpg";
-
 
 export const menu: PropsTypeMenu[] = [
   {
@@ -90,10 +93,23 @@ export const informations: PropsTypeInformation[] =  [
 
 
 
-export const sponsors = [
-  { id: 0, title: 'Platinum', src: ChaossAfricaLogo, alt: "ChaossAfricaLogo", className: "ChaossAfricaLogo", href: "https://twitter.com/chaoss_africa"},
-  { id: 1, title: 'Silver', src: Culysoft, alt: "Culysoft", className: 'silver', href: "https://culysoft.com/",},
+export const Silver = [
+  { id: 1, src: Culysoft, alt: "Culysoft", className: 'Culysoft', href: "https://culysoft.com/",},
 ]
+
+export const MediaPartners = [
+  { id: 1, src: portal_de_ti, alt: "portal_de_ti", className: 'portal_de_ti', href: "https://pti.ao/",},
+]
+
+export const platinum = [
+  { id: 0, src: ChaossAfricaLogo, alt: "ChaossAfricaLogo", className: "ChaossAfricaLogo", href: "https://twitter.com/chaoss_africa"},
+  { id: 1, src: devexpertsLogo, alt: "devexpertsLogo", className: "devexpertsLogo", href: "https://devexperts.com/"},
+];
+
+export const goldSponsor = [
+  { id: 0, src: interledgerLogo, alt: "interledgerLogo", className: "interledgerLogo", href: "https://interledger.org/"},
+  { id: 1, src: logo_principal_branco, alt: "logo_principal_branco", className: "logo_principal_branco", href: "https://www.etic-tecnologia.com/"},
+];
 
 export const inKindSponsors = [
   { id: 1, src: GitHub_Logo_White, alt: "GitHub_Logo_White", className: 'gitHub', href: "https://github.com/",},
