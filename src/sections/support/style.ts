@@ -8,12 +8,108 @@ export const Wrapper = styled.section`
     align-items: center;
     flex-direction: column;
     gap: 64px;
+
+    div#supportGroup {
+      display: flex;
+      gap: 90px;
+
+      @media (max-width: 1115px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media (max-width: 789px) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
+`;
+
+export const PlatinumStyles = styled.section `
+  div {
+    display: flex;
+    gap: 30px;
+
+    @media (max-width: 391px) {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    img.ChaossAfricaLogo {
+      height: 40px;
+      object-fit: cover;
+      width: 100px;
+    }
+
+    img.devexpertsLogo {
+      height: 30px;
+      object-fit: cover;
+      width: 170px;
+    }
+
+    @media (max-width: 357px) {
+      img.ChaossAfricaLogo {
+        height: 30px;
+        object-fit: cover;
+        width: 80px;
+      }
+  
+      img.devexpertsLogo {
+        height: 25px;
+        object-fit: cover;
+        width: 140px;
+      }
+    }
+  }
+`;
+
+export const MediaPartnersSection = styled.section `
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+
+  img {
+    height: 45px;
+    width: 115px;
+    object-fit: cover;
+  }
+`;
+
+export const GoldSection = styled.section `
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  
+  img.interledgerLogo {
+    height: 50px;
+    width: 160px;
   }
 
-  @media (max-width: 546px) {
-    .main__container {
-      align-items: flex-start;
-      gap: 32px;
+  img.logo_principal_branco {
+    height: 50px;
+    width: 85px;
+    object-fit: cover;
+  }
+
+  div {
+    display: flex;
+    gap: 30px;
+
+    @media (max-width: 391px) {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+
+      img.interledgerLogo {
+        height: 40px;
+        width: 150px;
+      }
+
+      img.logo_principal_branco {
+        height: 40px;
+        width: 70px;
+        object-fit: cover;
+      }
     }
   }
 `;
@@ -23,25 +119,10 @@ export const InKindSponsorsStyle = styled.section `
     display: flex;
     gap: 30px;
 
-    @media (max-width: 369px) {
-      flex-direction: column;
-
-      img.gitHub {
-        width: 100px;
-      }
+    @media (max-width: 391px) {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
     }
-  }
-
-  h2 {
-    font-size: 22px;
-    margin-bottom: 20px;
-    background: var(
-      --vf,
-      linear-gradient(170deg, #fe2a2a 12.25%, #f7931e 108.64%)
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 
   img.gitHub {
@@ -55,21 +136,26 @@ export const InKindSponsorsStyle = styled.section `
     width: 150px;
     object-fit: cover;
   }
+
+  @media (max-width: 357px) {
+    img.gitHub {
+      height: 20px;
+      width: 90px;
+      object-fit: cover;
+    }
+  
+    img.SauceLabLogo {
+      height: 29px;
+      width: 146px;
+      object-fit: cover;
+    }
+  }
 `;
 
-export const StylePartners = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 32px;
-  margin: 0 auto;
-  max-width: 1000px;
-  width: 100%;
-  img.ChaossAfricaLogo {
-    height: 40px;
-  }
-  @media (max-width: 546px) {
-    flex-direction: column;
+export const SilverStyles = styled.section`
+  img.Culysoft {
+    width: 110px;
+    height: 60px;
   }
 `;
 
@@ -113,16 +199,12 @@ export const StyleCommunity = styled.div`
     border-radius: 50%;
   }
 
-  h2 {
-    font-size: 22px;
-    margin-bottom: 10px;
-    background: var(
-      --vf,
-      linear-gradient(170deg, #fe2a2a 12.25%, #f7931e 108.64%)
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  @media (max-width: 357px)  {
+    img.logoWTM {
+      object-fit: cover;
+      height: 8px;
+      width: 90px;
+     }
   }
 
   @media (max-width: 300px) {
@@ -269,36 +351,6 @@ export const StyleCommunity = styled.div`
     .logos {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-    }
-  }
-`;
-
-
-export const StyleCompany = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  h2 {
-    font-size: 22px;
-    background: var(
-      --vf,
-      linear-gradient(170deg, #fe2a2a 12.25%, #f7931e 108.64%)
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  img {
-    height: 28px;
-    max-width: 150px;
-    width: 100%;
-    &.silver {
-      height: 64px;
-      max-width: 120px;
-    }
-    &.in__kind__sponsors {
-      height: 38px;
-      max-width: 96px;
     }
   }
 `;
