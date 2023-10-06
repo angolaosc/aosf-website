@@ -16,14 +16,14 @@ export default function Support({ id }: PropsType) {
     <Wrapper id={id}>
       <div className="main__container">
         <div id="supportGroup">
-          <MediaPartner />
+          <Platinum />
+          <GoldSponsor />
           <SilverComponent />
         </div>
         
         <div id="supportGroup">
-          <GoldSponsor />
           <InKindSponsors />
-          <Platinum />
+          <MediaPartner />
         </div>
         <Community />
       </div>
