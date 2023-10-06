@@ -6,7 +6,7 @@ import { StyleCommunity } from "./style";
 export function Community() {
   return (
     <StyleCommunity>
-      <h2 className="supportsTitle">Community</h2>
+      <h2 className="supportsTitle">Community Partners</h2>
       <div className="logos">
         {communityLogos.map(({ id, src, alt, className, href}) => (
           <a key={id} href={href}>
