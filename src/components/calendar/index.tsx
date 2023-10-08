@@ -23,7 +23,7 @@ export function Calendar() {
         <Image src={location} alt="location" />
         <div className="adress">
           <span>Online</span>
-          <span>Luanda, Luanda Angola</span>
+          <span><a href="https://maps.app.goo.gl/k1PvUrUnTktaASWT9">Mediateca de Luanda, Largo das Escolas, 1⁹ de Maio, Luanda, Angola</a></span>
         </div>
       </div>
     </Wrapper>
