@@ -14,7 +14,7 @@ export function Calendar() {
       <div className="calendar">
         <Image src={calendar} alt="calendar" />
         <div className="date">
-          <span>06 a 27 de Outubro | 2023</span>
+          <span>06 à 27 de Outubro | 2023</span>
           <strong>4 eventos em Outubro</strong>
         </div>
       </div>
@@ -23,7 +23,8 @@ export function Calendar() {
         <Image src={location} alt="location" />
         <div className="adress">
           <span>Online</span>
-          <span><a href="https://maps.app.goo.gl/k1PvUrUnTktaASWT9">Mediateca de Luanda, Largo das Escolas, 1⁹ de Maio, Luanda, Angola</a></span>
+          <span><a href="https://maps.app.goo.gl/k1PvUrUnTktaASWT9">Dia 15, Mediateca de Luanda, Largo das Escolas, 1⁹ de Maio, Luanda, Angola</a></span> <br/>
+          <span><a href="https://maps.app.goo.gl/STX1awS1vWGebJZb8">Dia 27, Digital AO, Rangel, Luanda, Angola</a></span>
         </div>
       </div>
     </Wrapper>

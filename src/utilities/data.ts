@@ -202,8 +202,8 @@ export const BUTTONS = [
   },
   {
     id: 1,
-    content: "Inscrever-se para o Hackathon",
-    url: "https://unstop.com/o/nRNxQZ4?lb=t91qM2wi",
+    content: "Ver Detalhes do Hackathon",
+    url: "https://github.com/angolaosc/aosfest-hackathon-2023",
     className: 'hackathon'
   },
 ];
