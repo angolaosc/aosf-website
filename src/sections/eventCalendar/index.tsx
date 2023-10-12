@@ -78,16 +78,15 @@ export default function EventCalendar({ id }: PropsType) {
               ]}
             />
 
-          <EventInformations day="Domingo, 15’ Outubro 2023 - Open-source hackathon(Evento Presencial)"
+          <EventInformations day="Domingo, 15’ Outubro 2023 - Open-source hackathon, Mediateca de Luanda"
               items={[
                 { time: "09:30 - 10:00 GMT+1", speaker: "Voluntários", description: "Check-in",  speakerLink:''},
-                { time: "10:00 - 10:10 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do evento",  speakerLink:'https://linktr.ee/angolaopensourcecommunity'},
-                { time: "10:10 - 10:25 GMT+1", speaker: "Ruth Ikegah", description: "Welcome to CHAOSS Africa",  speakerLink:'https://www.linkedin.com/in/ruth-ikegah'},
-                { time: "10:25 - 10:35 GMT+1", speaker: "Filipe Mulonde", description: "Lightning talk",  speakerLink:'https://www.linkedin.com/in/filipe-mulonde-7552241a1'},
-                { time: "10:35 - 11:00 GMT+1", speaker: "Todos participantes", description: "Lunch e preparação para a sessão de coding",  speakerLink:''},
-                { time: "11:00 - 14:00 GMT+1", speaker: "Todos hackers", description: "Sessão de contribuição 1.",  speakerLink:''},
-                { time: "14:00 - 14:30 GMT+1", speaker: "Todos participantes", description: "Coffe Break e Networking",  speakerLink:''},
-                { time: "14:30 - 17:00 GMT+1", speaker: "Todos hackers", description: "Sessão de contribuição 2.",  speakerLink:''},
+                { time: "10:00 - 10:15 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do evento",  speakerLink:'https://linktr.ee/angolaopensourcecommunity'},
+                { time: "10:15 - 11:00 GMT+1", speaker: "Martin Dala", description: "Workshop 1: Git/GitHub",  speakerLink:'https://www.linkedin.com/in/martindala/'},
+                { time: "11:00 - 11:30 GMT+1", speaker: "Todos", description: "Networking e Jogos divertidos",  speakerLink:''},
+                { time: "11:30 - 12:00 GMT+1", speaker: "António Pedro", description: "Workshop 2: Boas práticas no Open-source",  speakerLink:'https://www.linkedin.com/in/antoniopedro99l'},
+                { time: "12:00 - 13:00 GMT+1", speaker: "Todos participantes", description: "Coffee Break, Netowrking e Jogos divertidos",  speakerLink:''},
+                { time: "13:00 - 17:00 GMT+1", speaker: "Todos hackers", description: "Sessão de contribuição",  speakerLink:''},
                 { time: "17:00 - 17:15 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento e avisos importantes sobre os vencedores.",  speakerLink:'https://linktr.ee/angolaopensourcecommunity'},
               ]}
             />
@@ -102,7 +101,7 @@ export default function EventCalendar({ id }: PropsType) {
               ]}
             />
 
-        <EventInformations day="Sexta-feira, 27’ Outubro 2023 - Open-source para empresas(Registro obrigatório)"
+        <EventInformations day="Sexta-feira, 27’ Outubro 2023 - Open-source para empresas(Registro obrigatório), Digital AO, Rangel"
               items={[
                 { time: "TBA    ", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest",  speakerLink:'https://linktr.ee/angolaopensourcecommunity'},
                 { time: "TBA    ", speaker: "TBA", description: "Inovação e Sustentabilidade Empresarial com Open Source.", speakerLink:'' },
