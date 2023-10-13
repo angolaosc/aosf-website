@@ -8,6 +8,7 @@ interface EventDayPropsItem {
     speaker: String,
     description: String,
     speakerLink: string,
+    isPastEvent?: boolean,  //Adicinoei esta propriedade para verificaar se o evento já
 }
 
 interface EventDayProps {
@@ -27,7 +28,13 @@ export default function EventInformations({day, items}: EventDayProps) {
                                 items.map((item, index) => (
                                     <div key={index}>
                                         <p id="time">{item.time}</p>
-                                        <p><span>{item.description}</span><br/><a href={item.speakerLink}> {item.speaker}</a></p>
+                                        <p>
+                    <span style={{ textDecoration: item.isPastEvent ? 'line-through' : 'none' }}>
+                      {item.description}
+                    </span>
+                    <br />
+                    <a href={item.speakerLink}>{item.speaker}</a>
+                  </p>
                                     </div>
                                 ))}
                         </div>
