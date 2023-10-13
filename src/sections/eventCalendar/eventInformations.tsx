@@ -8,7 +8,7 @@ interface EventDayPropsItem {
     speaker: String,
     description: String,
     speakerLink: string,
-    isPastEvent?: boolean,  //Adicinoei esta propriedade para verificaar se o evento já
+    isPastEvent?: boolean,  //Adicinoei esta propriedade para verificaar se o evento já foi realizado ou se ja aconteceu
 }
 
 interface EventDayProps {
