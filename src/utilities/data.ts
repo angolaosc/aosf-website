@@ -199,11 +199,5 @@ export const BUTTONS = [
     id: 0,
     content: "Inscrever-se para o evento",
     url: "https://events.mlh.io/events/10184-angola-open-source-fest-hacktoberfest-edition",
-  },
-  {
-    id: 1,
-    content: "Ver Detalhes do Hackathon",
-    url: "https://github.com/angolaosc/aosfest-hackathon-2023",
-    className: 'hackathon'
-  },
+  }
 ];
