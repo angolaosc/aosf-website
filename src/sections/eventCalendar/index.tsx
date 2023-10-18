@@ -96,7 +96,7 @@ export default function EventCalendar({ id }: PropsType) {
               items={[
                 { time: "19:00 - 19:15 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest",  speakerLink:'https://linktr.ee/angolaopensourcecommunity'},
                 { time: "19:15 - 20:15 GMT+1", speaker: "Diego Molina", description: "Fazendo tua primeira contribuição para o Selenium.", speakerLink:'https://www.linkedin.com/in/diemol/' },
-                { time: "20:15 - 20:30 GMT+1", speaker: "TBA", description: "Anúncio dos vencedores do Hackathon.",  speakerLink:''},
+                { time: "20:15 - 20:30 GMT+1", speaker: "Angola Open-source Community", description: "Sorteios e Jogos divertidos.",  speakerLink:''},
                 { time: "20:30 - 20:35 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento e giveaways",  speakerLink:'https://aosc.social'},
               ]}
             />
