@@ -64,7 +64,7 @@ export default function EventCalendar({ id }: PropsType) {
           <div className="frame__area">
             <SpecialTitle content="Agenda do evento" />
 
-            <EventInformations day="Sexta-feira, 06’ Outubro 2023 - Kickoff day"
+            <EventInformations day="Sexta-feira, 06’ Outubro 2023 - Kickoff day (CONCLUÍDO)"
               items={[
                 { time: "19:00 - 19:15 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest", speakerLink:'https://linktr.ee/angolaopensourcecommunity' },
                 { time: "19:15 - 19:35 GMT+1", speaker: "Paloma Oliveira", description: "Introdução e importância do Open-source para a carreira",  speakerLink:'https://www.linkedin.com/in/discombobulateme'},
@@ -78,7 +78,7 @@ export default function EventCalendar({ id }: PropsType) {
               ]}
             />
 
-          <EventInformations day="Domingo, 15’ Outubro 2023 - Open-source hackathon, Mediateca de Luanda"
+          <EventInformations day="Domingo, 15’ Outubro 2023 - Open-source hackathon, Mediateca de Luanda (CONCLUÍDO)"
               items={[
                 { time: "09:30 - 10:00 GMT+1", speaker: "Voluntários", description: "Check-in",  speakerLink:''},
                 { time: "10:00 - 10:15 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do evento",  speakerLink:'https://linktr.ee/angolaopensourcecommunity'},
@@ -92,7 +92,7 @@ export default function EventCalendar({ id }: PropsType) {
             />
 
 
-          <EventInformations day="Terça-feira, 24’ Outubro 2023 - Workshop day Selenium(Evento Online, registro obrigatório)"
+          <EventInformations day="Terça-feira, 24’ Outubro 2023 - Workshop day Selenium (Evento Online, registro obrigatório)"
               items={[
                 { time: "19:00 - 19:15 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest",  speakerLink:'https://linktr.ee/angolaopensourcecommunity'},
                 { time: "19:15 - 20:15 GMT+1", speaker: "Diego Molina", description: "Fazendo tua primeira contribuição para o Selenium.", speakerLink:'https://www.linkedin.com/in/diemol/' },
