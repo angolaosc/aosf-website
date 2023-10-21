@@ -103,10 +103,10 @@ export default function EventCalendar({ id }: PropsType) {
 
         <EventInformations day="Sexta-feira, 27’ Outubro 2023 - Inovação e Sustentabilidade Empresarial com Open Source(Registro obrigatório), Digital.AO, Rangel"
               items={[
-                { time: "08:00 - 09:00", speaker: "Voluntários", description: "Check-in",  speakerLink:'https://linktr.ee/angolaosc'},
-                { time: "09:00 - 09:15", speaker: "Djemima Luís", description: "Abertura do evento",  speakerLink:'https://www.linkedin.com/in/djemima-lu%C3%ADs-a174121bb'},
-                { time: "09:15 - 09:30", speaker: "Angola Open-source Community", description: "Bem-vindo à AOSC", speakerLink:'https://linktr.ee/angolaosc'},
-                { time: "09:30 - 10:00", speaker: "Vários", description: "Keynotes", speakerLink:'https://linktr.ee/angolaosc'},
+                { time: "08:00 - 09:00 GMT+1", speaker: "Voluntários", description: "Check-in",  speakerLink:'https://linktr.ee/angolaosc'},
+                { time: "09:00 - 09:15 GMT+1", speaker: "Djemima Luís", description: "Abertura do evento",  speakerLink:'https://www.linkedin.com/in/djemima-lu%C3%ADs-a174121bb'},
+                { time: "09:15 - 09:30 GMT+1", speaker: "Angola Open-source Community", description: "Bem-vindo à AOSC", speakerLink:'https://linktr.ee/angolaosc'},
+                { time: "09:30 - 10:00 GMT+1", speaker: "Vários", description: "Keynotes", speakerLink:'https://linktr.ee/angolaosc'},
                 { time: "", speaker: "Angola Open-source Community", description: "Agenda Completa brevemente", speakerLink:'https://linktr.ee/angolaosc'}
               ]}
             />
