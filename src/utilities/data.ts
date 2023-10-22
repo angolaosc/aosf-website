@@ -199,5 +199,6 @@ export const BUTTONS = [
     id: 0,
     content: "Inscrever-se para o evento",
     url: "https://events.mlh.io/events/10184-angola-open-source-fest-hacktoberfest-edition",
+    className: "button button--primary",
   }
 ];

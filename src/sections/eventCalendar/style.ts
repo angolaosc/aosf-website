@@ -147,7 +147,7 @@ export const Wrapper = styled.section`
   }
 `
 
-export const InformationsStyle = styled.section`
+export const InformationStyle = styled.section`
   > section {
     border-left: 2px solid #9b2123;
     margin-left: 130px;

@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { InformationsStyle } from "./style"
+import { InformationStyle } from "./style"
 import line from "@/assets/Line 3.svg"
 
 
@@ -15,9 +15,9 @@ interface EventDayProps {
     items: Array<EventDayPropsItem>
 }
 
-export default function EventInformations({day, items}: EventDayProps) {
+export default function EventInformation({day, items}: EventDayProps) {
     return (
-        <InformationsStyle>
+        <InformationStyle>
             <section>
                 <div>
 
@@ -34,6 +34,6 @@ export default function EventInformations({day, items}: EventDayProps) {
                     </section>
                 </div>
             </section>
-        </InformationsStyle>
+        </InformationStyle>
     )
 }
