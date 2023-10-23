@@ -7,7 +7,7 @@ export function Contributor({
   src,
   name,
   href,
-  speciality,
+  role,
 }: PropsTypeContributor) {
   return (
     <Wrapper>
@@ -16,7 +16,7 @@ export function Contributor({
       </a>
       <a href={href} className="linkedin">
         {name}
-        <span>{speciality}</span>
+        <span>{role}</span>
       </a>
     </Wrapper>
   );

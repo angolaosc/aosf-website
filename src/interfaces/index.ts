@@ -28,5 +28,5 @@ export interface PropsTypeContributor {
   linkYoutube?: string;
   src: StaticImageData;
   href: string;
-  speciality: string;
+  role: string;
 }
