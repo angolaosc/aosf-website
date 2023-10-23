@@ -7,14 +7,15 @@ export default function CopyrightFooter() {
   return (
     <Wrapper>
       <div className="main__container">
+        <p>Shoutout para os Devs voluntários</p>
         <div className="contributors">
           {CONTRIBUTORS.map(
-            ({ id, name, Avatar, speciality, href, linkYoutube }) => (
+            ({ id, name, Avatar, role, href, linkYoutube }) => (
               <Contributor
                 key={id}
                 name={name}
                 src={Avatar}
-                speciality={speciality}
+                role={role}
                 href={href}
                 linkYoutube={linkYoutube}
               />
