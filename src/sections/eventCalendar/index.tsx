@@ -90,7 +90,7 @@ export default function EventCalendar({ id }: PropsType) {
               ]}
             />
 
-          <EventInformation day="Terça-feira, 24’ Outubro 2023 - Workshop day Selenium (Evento Online, registro obrigatório)"
+          <EventInformation day="Terça-feira, 24’ Outubro 2023 - Workshop day Selenium (CONCLUÍDO)"
               items={[
                 { time: "19:00 - 19:15 GMT+1", speaker: "Angola Open-source Community", description: "Abertura do Angola Open-source Fest",  speakerLink:'https://linktr.ee/angolaosc'},
                 { time: "19:15 - 20:15 GMT+1", speaker: "Diego Molina", description: "Fazendo tua primeira contribuição para o Selenium.", speakerLink:'https://www.linkedin.com/in/diemol/' },
@@ -102,11 +102,23 @@ export default function EventCalendar({ id }: PropsType) {
         <EventInformation day="Sexta-feira, 27’ Outubro 2023 - Inovação e Sustentabilidade Empresarial com Open Source(Registro obrigatório), Digital.AO, Rangel"
               items={[
                 { time: "08:00 - 09:00 GMT+1", speaker: "Voluntários", description: "Check-in",  speakerLink:'https://linktr.ee/angolaosc'},
-                { time: "09:00 - 09:15 GMT+1", speaker: "Djemima Luís", description: "Abertura do evento",  speakerLink:'https://www.linkedin.com/in/djemima-lu%C3%ADs-a174121bb'},
-                { time: "09:15 - 09:30 GMT+1", speaker: "Angola Open-source Community", description: "Bem-vindo à AOSC", speakerLink:'https://linktr.ee/angolaosc'},
-                { time: "09:30 - 10:00 GMT+1", speaker: "Vários", description: "Keynotes", speakerLink:'https://linktr.ee/angolaosc'},
-                { time: "", speaker: "Angola Open-source Community", description: "Agenda Completa brevemente", speakerLink:'https://linktr.ee/angolaosc'}
-              ]}
+                { time: "09:00 - 09:15 GMT+1", speaker: "Djemima Luís", description: "Abertura",  speakerLink:'https://www.linkedin.com/in/djemima-lu%C3%ADs-a174121bb'},
+                { time: "09:15 - 09:30 GMT+1", speaker: "Angola Open-source Community", description: "Bem-vindo a Angola Open-source Community, AOSC", speakerLink:'https://linktr.ee/angolaosc'},
+                { time: "09:30 - 09:40 GMT+1", speaker: "Ruth Ikegah", description: "Keynote 1: CHAOSS Africa", speakerLink:'https://www.linkedin.com/in/ruth-ikegah/'},
+                { time: "09:40 - 09:50 GMT+1", speaker: "Matias Perazoli", description: "Keynote 2: ETIC Technologias", speakerLink:'https://www.linkedin.com/in/perazoli/'},
+                { time: "09:50 - 10:00 GMT+1", speaker: "Gerardo Lisboa", description: "Keynote 3: ESOP - Associação de Empresas de Softwares Open-source Portuguesas", speakerLink:'https://www.linkedin.com/in/gerardolisboa/'},
+                { time: "10:00 - 10:45 GMT+1", speaker: "Walter Angolar", description: "O mindset Open-source e seus fundamentos", speakerLink:'https://www.linkedin.com/in/walter-angolar-da-silva-02a96b24/'},
+                { time: "10:45 - 11:30 GMT+1", speaker: "Matias Perazoli", description: "Além do Código: Os Benefícios e Desafios da Adoção de Soluções Open Source nas Empresas", speakerLink:'https://www.linkedin.com/in/perazoli/'},
+                { time: "11:30 - 12:15 GMT+1", speaker: "Elisabete Sá Cardoso", description: "Licenças de Softwares e Open-source", speakerLink:'https://www.linkedin.com/in/elisabete-s%C3%A1-cardoso-151429256/'},
+                { time: "12:15 - 12:45 GMT+1", speaker: "Todos", description: "Coffe break e Networking", speakerLink:''},
+                { time: "12:45 - 13:00 GMT+1", speaker: "Djemima Luís", description: "Anúncio dos vencedores do AOSFest Hackathon 2023", speakerLink:'https://www.linkedin.com/in/djemima-lu%C3%ADs-a174121bb'},
+                { time: "13:00 - 13:45 GMT+1", speaker: "Guilherme Dellagustin", description: "InnerSource, InnerSource Program Offices e como funciona a iniciativa de InnerSource na SAP", speakerLink:'https://www.linkedin.com/in/dellagustin/'},
+                { time: "13:45 - 14:30 GMT+1", speaker: "Márcio Júnior Vieira", description: "Open Source Program Office(OSPO): Hackers na Governança e Geração de Négocios com FLOSS", speakerLink:'https://www.linkedin.com/in/mvieira1/'},
+                { time: "14:30 - 15:15 GMT+1", speaker: "Yuri Sá", description: "Observabilidade pronta para a produção com o Open-source Software", speakerLink:'https://www.linkedin.com/in/yurioliveirasa/'},
+                { time: "15:15 - 15:30 GMT+1", speaker: "Palestrantes", description: "Perguntas e Respostas(Q&A)", speakerLink:''},
+                { time: "15:30 - 16:30 GMT+1", speaker: "Djemima Luís & Lázaro Manuel", description: "Encerramento", speakerLink:''}
+            ]
+            }
             />
 
           </div>

@@ -18,9 +18,8 @@ import MozdevzLogo from "@/assets/Community/Mozdevz logo - White.png"
 import logoWTM from "@/assets/Community/logoWTM.png"
 import CDALogo from "@/assets/Community/CDA.jpg"
 import logo_principal_branco from "@/assets/Gold/Logo_principal_branco.png"
-import CDA_Girls from "@/assets/Community/CDA_Girls-removebg-preview.png"
+import esopLogo from "@/assets/Community/esop.png"
 
-import AWS_User_group from "@/assets/Community/AWS_User_group.png"
 import CNCG_logo from "@/assets/Community/CNCG_Logo_Transparent-removebg-preview.png"
 import devexpertsLogo from "@/assets/Platinum/devexpertsLogo.png";
 import portal_de_ti from "@/assets/MediaPartners/portal_de_ti.png"
@@ -121,9 +120,7 @@ export const communityLogos = [
   { id: 1, src: MozdevzLogo,  className: "MozdevzLogo", alt: "MozdevzLogo", href: "https://www.mozdevz.org/"},
   {id: 4, src: logoWTM, alt: "logoWTM", className: "logoWTM", href: "https://www.linkedin.com/company/wtm-luanda/"},
   {id: 5, src: CDALogo, alt: "CDALogo", className: "CDAlogo", href: "https://www.facebook.com/communitydevangola?mibextid=b06tZ0"},
-  {id: 6, src: CDA_Girls, alt: "CDA_Girls", className: "CDA_Girls", href: "https://www.linkedin.com/company/cda-girls/"},
-
-  {id: 7, src: AWS_User_group, alt: "AWS_User_group", className: "AWS_User_group", href: "https://www.linkedin.com/company/aws-user-group-angola/"},
+  {id: 7, src: esopLogo, alt: "esopLogo", className: "esopLogo", href: "https://esop.pt"},
   {id: 8, src: CNCG_logo, alt: "CNCG_logo", className: "CNCG_logo", href: "https://community.cncf.io/cloud-native-luanda/"}
 ];
 
