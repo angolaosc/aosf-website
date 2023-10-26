@@ -84,7 +84,7 @@ export default function EventCalendar({ id }: PropsType) {
                 { time: "10:15 - 11:00 GMT+1", speaker: "Wilmy Danguya", description: "Workshop 1: Git/GitHub",  speakerLink:'https://www.linkedin.com/in/danguya/'},
                 { time: "11:00 - 11:30 GMT+1", speaker: "Todos", description: "Networking e Jogos divertidos",  speakerLink:''},
                 { time: "11:30 - 12:00 GMT+1", speaker: "António Pedro", description: "Workshop 2: Boas práticas no Open-source",  speakerLink:'https://www.linkedin.com/in/antoniopedro99l'},
-                { time: "12:00 - 13:00 GMT+1", speaker: "Todos participantes", description: "Coffee Break, Netowrking e Jogos divertidos",  speakerLink:''},
+                { time: "12:00 - 13:00 GMT+1", speaker: "Todos participantes", description: "Coffee Break, Networking e Jogos divertidos",  speakerLink:''},
                 { time: "13:00 - 17:00 GMT+1", speaker: "Todos hackers", description: "Sessão de contribuição",  speakerLink:''},
                 { time: "17:00 - 17:15 GMT+1", speaker: "Angola Open-source Community", description: "Encerramento e avisos importantes",  speakerLink:'https://linktr.ee/angolaopensourcecommunity'},
               ]}
